@@ -1,0 +1,1575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+      <link rel="stylesheet" href="vendor/meganific-popup/magnific-popup.css" />
+       <link rel="stylesheet" href="vendor/bootstrap-touchspin-master/dist/jquery.bootstrap-touchspin.css">
+      <link rel="stylesheet" href="css/style.css" />
+    </head>
+  </head>
+  <body>
+    <div class="menu-container">
+      <header>
+        <div class="logo-menu pt-2">
+          
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+          <div class="logo">
+            <img src="img/logo-img/logo.png" alt="" srcset="" />
+            <div class="cycle-icons"></div>
+          </div>
+          <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div class="border my-2"></div>
+
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+          
+            <div class="logo-moon d-xl-none d-flex " >
+              <img src="img/logo-img/logo.png" alt="" srcset="" /> 
+            </div>
+            <div class="nav-icon-box gap-sm-4 gap-3 d-flex  mt-lg-0 d-flex d-lg-none">
+              <!-- <a href="#"></a> -->
+              <a href="" class="position-relative" >
+                <i class="fas fa-cart-shopping"> </i>
+                <span class="position-absolute top-0 m-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  9
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </a>
+              <a href="#"><i class="fas fa-heart"></i></a>
+              <a href="#"><i class="fas fa-user"></i></a>
+          
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mt-4 mt-lg-0" id="navbarSupportedContent">
+              <form class="d-flex" role="search">
+                <div class="input-group d-none d-xl-flex">
+                  <div class="search-icon"><i class="fas fa-search"></i></div>
+                  <input
+                    type="text"
+                    class="form-control"
+                    aria-label="Amount (to the nearest dollar)"
+                    placeholder="search here ..."
+                  />
+                  <i class="fa-solid fa-right-left"></i>
+                </div>
+              </form>
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-xl-5 gap-lg-2 gap-4">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item dropdown opning-menu ">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Blog
+                  </a>
+                  <ul class="dropdown-menu hide-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Content Us</a>
+                </li>
+              </ul>
+
+              <div class="nav-icon-box gap-4 d-flex mt-4 mt-lg-0 d-none d-lg-flex">
+                <!-- <a href="#"></a> -->
+                <a href="" class="position-relative"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                  <i class="fas fa-cart-shopping"> </i>
+                  <span class="position-absolute top-0 m-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    9
+                    <span class="visually-hidden">unread messages</span>
+                  </span>
+                </a>
+                <a href="#"><i class="fas fa-heart"></i></a>
+                <a href="#"><i class="fas fa-user"></i></a>
+              </div>
+              
+            </div>
+           
+          </div>
+        </nav>
+        
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body m-auto ">
+    <div class="card position-relative " style="width: 18rem; ">
+      <a href="javascript:void(0)" class="close"><i class="fa-solid fa-xmark"></i></a>
+      <div class="row mt-4">
+        <div class="col-6">
+          <img src="img/section/cycle-2.png" class="card-img-top" alt="...">
+          </div>
+           <div class="col-6">
+            <h6 class="card-title">Power Cycle</h6>
+        <p>Lorem ipsum dolor sit amet </p>
+           </div>
+      </div>
+      <div class="card-body">
+        
+         <div class="d-flex justify-content-between align-items-center ">
+           <div class="de-price  gap-1">
+            <h6>RS. $190</h6> 
+            <span class=""><strike> RS.$140 </strike></span> 
+              <div class="off"><span>(45%)</span> </div>       
+            </div>  
+          </div>
+        <div class="list d-flex gap-3">
+          <input id="demo3_21" type="text" value="" name="demo3_21">   
+          <a href="#" class="btn edit-buy btn-success">buy</a>
+        </div>    
+      </div>
+    </div>
+  </div>
+  <div class="offcanvas-body m-auto ">
+    <div class="card position-relative " style="width: 18rem; ">
+      <a href="javascript:void(0)" class="close"><i class="fa-solid fa-xmark"></i></a>
+      <div class="row mt-4">
+        <div class="col-6">
+          <img src="img/section/rening-cycle-5.png" class="card-img-top" alt="...">
+          </div>
+           <div class="col-6">
+            <h6 class="card-title">Power Cycle</h6>
+        <p>Lorem ipsum dolor sit amet </p>
+           </div>
+      </div>
+      <div class="card-body">
+        
+         <div class="d-flex justify-content-between align-items-center ">
+           <div class="de-price  gap-1">
+            <h6>RS. $190</h6> 
+            <span class=""><strike> RS.$140 </strike></span> 
+              <div class="off"><span>(45%)</span> </div>       
+            </div>  
+          </div>
+        <div class="list d-flex gap-3">
+          <input id="demo3_21" type="text" value="" name="demo3_21">   
+          <a href="#" class="btn edit-buy btn-success">buy</a>
+        </div>    
+      </div>
+    </div>
+  </div>
+  <div class="offcanvas-body m-auto ">
+    <div class="card position-relative " style="width: 18rem; ">
+      <a href="javascript:void(0)" class="close"><i class="fa-solid fa-xmark"></i></a>
+      <div class="row mt-4">
+        <div class="col-6">
+          <img src="img/section/cycle-2.png" class="card-img-top" alt="...">
+          </div>
+           <div class="col-6">
+            <h6 class="card-title">Power Cycle</h6>
+        <p>Lorem ipsum dolor sit amet </p>
+           </div>
+      </div>
+      <div class="card-body">
+        
+         <div class="d-flex justify-content-between align-items-center ">
+           <div class="de-price  gap-1">
+            <h6>RS. $190</h6> 
+            <span class=""><strike> RS.$140 </strike></span> 
+              <div class="off"><span>(45%)</span> </div>       
+            </div>  
+          </div>
+        <div class="list d-flex gap-3">
+          <input id="demo3_21" type="text" value="" name="demo3_21">   
+          <a href="#" class="btn edit-buy btn-success">buy</a>
+        </div>    
+      </div>
+    </div>
+  </div>
+
+ 
+</div>
+      </header>
+      <div class="banner">
+        <div class="cycle-content">
+          <h1>Elevate Your Ride with Our Cutting Edge E-Bikes</h1>
+          <p>
+            It is a long established fact that a reader will be distracted by
+            the may readable content of a page when looking at its layout The
+            normal.
+          </p>
+          <div class="cycle-btn">
+            <a href="#" class="btn btn-secondary rounded-1">Discover Now</a>
+            <p>Explore our brand-new & E-bike iteams</p>
+          </div>
+        </div>
+           
+        <div class="cycle-img">
+          <img src="img/banner-img/cycle.png" alt="" srcset="" />
+           <div class="round-text"><p id="text"> </p>
+            <div class="icon-play"> <a class="popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto"><i class="fa-solid fa-play"></i></a></div>
+          </div>
+          <div class="round-text-1"></div>
+           
+        </div>
+        <div class="cycle-features ">
+           
+          <div class="features-box col-md-6">
+            <div class="features-img">
+              <img src="img/banner-img/plate.png" alt="" srcset="" />
+            </div>
+            <div class="features-text">
+              <span>Frame Material</span>
+              <p>The material used for the frame such as aluminum & Steel</p>
+            </div>
+          </div>
+          <div class="features-box col-md-6">
+            <div class="features-img">
+              <img src="img/banner-img/plate.png" alt="" srcset="" />
+            </div>
+            <div class="features-text">
+              <span>Frame Material</span>
+              <p>The material used for the frame such as aluminum & Steel</p>
+            </div>
+          </div>
+          <div class="features-box">
+            <div class="features-img">
+              <img src="img/banner-img/plate.png" alt="" srcset="" />
+            </div>
+            <div class="features-text">
+              <span>Frame Material</span>
+              <p>The material used for the frame such as aluminum & Steel</p>
+            </div>
+          </div>
+        </div>
+          <div class="banner-additionaltext">
+           <span>Electric Bike</span>            
+          </div>
+      </div>
+ 
+   
+   <section class="lectro-35">
+         <div class="container">
+             <div class="row">
+              <div class="col-xl-8 ">
+                <div class="row">
+                 <div class="col-12">
+                     <div class="duble-brack">
+                      <div class="position-relative z-2 duble-brack-2">
+                        <h2>Wheels With Front Suspension Dual Disc Brakes And Fast Charging</h2>
+                        <a href="javascript:void(0)" class="btn btn-outline-secondary rounded-1 add-card-btn">Add to Card</a>
+                      </div>
+                        
+                        <div class="dualbrack-img">
+                          <img src="img/section/bubal-brack.png" alt="" srcset="">  
+                        </div>
+                     </div>
+                 </div>
+                 <div class="col-md-6"> 
+                   <div class="tire mb-4 mb-md-0">
+                         <h2>Limitless Shopping Complete  Tubeless Tire Suitable 20T</h2>
+                         <a href="javascript:void(0)" class="btn btn-outline-secondary rounded-1 add-card-btn">Add to Card</a>
+                         <div class="tire-img"> <img src="img/section/tire.png" alt="" srcset=""></div>
+                        </div>
+                 </div>
+                 <div class="col-md-6"> 
+                   <div class="handle tire">
+                         <h2>Limitless Shopping Complete  Tubeless Tire Suitable 20T</h2>
+                         <a href="javascript:void(0)" class="btn btn-outline-secondary rounded-1 add-card-btn">Add to Card</a>
+                         <div class="handle-img"> <img src="img/section/birck.png" alt="" srcset=""></div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <div class="col-xl-4 mt-4 mt-xl-0">
+                    <div class="c35">
+                      <h2>Lectro C35</h2>
+                      <p>Gear Sprint Riot 26T MTB Geared Cycle 21 Speed Shimano Gears with Dual Disc</p>
+                      <a href="javascript:void(0)" class="mt-4 btn btn-outline-secondary rounded-1 add-card-btn">Add to Card</a>
+                </div>
+                 
+              </div>
+             </div>
+         </div>
+   </section>
+     
+    <section class="our-product">
+      <div class="container">
+          <div class="product-title">
+                <h2>Our Products</h2>
+                <div class="title-text">
+                  <p>That can be folded for easy storage and transportation, making them great for commuters or those with limited storage space.</p>
+                   <a href="javascript:void(0)"> Read More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>    
+          </div>
+
+            <div class="row">
+              <div class="col-xl-2  ">
+                <div class="product-name port-item ">
+                  <a href="javascript:void(0)" class="am" data-filter="*">New Bikes</a>
+                  <a href="javascript:void(0)" class="am" data-filter=".kids">Road Bikes</a>
+                  <a href="javascript:void(0)" class="am" data-filter=".electric">Hybrid Bikes</a>
+                  <a href="javascript:void(0)" class="am" data-filter="*">City Bikes</a>
+                  <a href="javascript:void(0)" class="am" data-filter=".speed">Cruiser Bikes</a>
+                  <a href="javascript:void(0)" class="am" data-filter=".electric">Electric Bikes</a>
+                  <a href="javascript:void(0)" class="am" data-filter=".speed">Folding Bikes</a>
+                  <a href="javascript:void(0)" class="am" data-filter="*">Kids' Bikes</a>
+                  <a href="javascript:void(0)" class="am" data-filter=".speed">Gravel Bikes</a>
+                    <button type="button" class="btn btn-secondary  rounded-1 ">view more  <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+               
+              </div>
+              <div class="col-xl-10 ">
+                     <div class="row grid">
+                      <div class="col-xl-4 col-md-6 speed ">
+                        <div class="cycle-card"  >
+                             <div class="cycle-image">
+                               <img src="img/section/cycle-3.png" alt="" srcset="">
+                             </div>
+                               <p>Squad 7 Speed Shimano Powered 29" Inch Unisex MTB Dual Disc Brake</p>
+                               <a href="javascript:void(0)" class=" btn btn-outline-secondary rounded-1 add-card-btn">Add to Card</a>
+                        </div>
+                      </div>
+                      <div class="col-xl-4 col-md-6 kids">
+                        <div class="cycle-card">
+                             <div class="cycle-image">
+                               <img src="img/section/cycle-2.png" alt="" srcset="">
+                             </div>
+                               <p>Squad 7 Speed Shimano Powered 29" Inch Unisex MTB Dual Disc Brake</p>
+                               <a href="javascript:void(0)" class=" btn btn-outline-secondary rounded-1 add-card-btn">Add to Card</a>
+                        </div>
+                      </div>
+                      <div class="col-xl-4 col-md-6 electric">
+                        <div class="cycle-card"  >
+                             <div class="cycle-image">
+                               <img src="img/section/cycle-1.png" alt="" srcset="">
+                             </div>
+                               <p>Squad 7 Speed Shimano Powered 29" Inch Unisex MTB Dual Disc Brake</p>
+                               <a href="javascript:void(0)" class=" btn btn-outline-secondary rounded-1 add-card-btn">Add to Card</a>
+                        </div>
+                      </div>
+                     </div>
+              </div>
+            </div>
+
+      </div>
+     </section>
+       
+     <section class="moutain-cycles">
+          <div class="mountain-bick">
+           <div class="container">
+            <div class="row">
+               <div class="col-lg-6 ">
+                   <div class="moutain-bick-menu">
+                   <span>Mountain Bike</span>
+                   <h2>Drift Cycle for Big MTB Mountain Bike Dual Disk Brake & Front Suspension</h2>
+                   <p>Built for off-road and rough terrain riding. They have wide, knobby tires front suspension (hardtail) or both front and rear suspension (full-suspension), and sturdy frames.</p>
+                    <div class="bick-details"> 
+                        <div class="waight">
+                          <span>Weight</span>
+                          <h3>15KG</h3>
+                        </div>
+                        <div class="waight">
+                          <span>Wheel Size</span>
+                          <h3>15KG</h3>
+                        </div>
+                        <div class="waight">
+                          <span>Chain</span>
+                          <h3>CMK 2-M</h3>
+                        </div>
+                    </div>
+                      <div class="price-menu">
+                        <button type="button" class="btn btn-secondary  rounded-1 ">view more  <i class="fa-solid fa-arrow-right"></i></button>
+                          <span>price: $160</span>
+                      </div>
+
+                    </div>
+               </div>
+                <div class="col-lg-6">
+                    <div class="moutain-bick-image">
+                         <img src="img/section/cycle-big.png" alt="" srcset="">
+                         <span>Mountain Bicksss</span>  
+                           
+                    </div>
+                </div>
+            </div>
+           </div>
+          </div>
+     </section>
+
+
+
+     <div id="test-form" class="white-popup-block mfp-hide">
+          <div class="container">
+               <div class="row">
+                   <div class="col-lg-6 ">
+                     <div class="card-img">
+                      <img src="img/section/cycle-2.png" alt="" srcset="">
+                     </div>
+                   </div>
+                   <div class="col-lg-6">
+                    <div class="swip-right popop">
+                      <h4>Thunder Strike Pro </h4>
+                      <p>The mountain bike model and the manufacturer's brand  material used for the frame such aluminum steel carbon fiber &amp; light weight.</p>
+                       <div class="cycle-details d-flex gap-5">
+                        <div>
+                          <div class="ditels-part">
+                            <div class="part-img">
+                             <img src="img/section/part-cycle/wheel.png" alt="" srcset="">
+                            </div>
+                              <span>DT Swiss 29-Inch </span> 
+                     </div>
+                     <div class="ditels-part">
+                            <div class="part-img">
+                             <img src="img/section/part-cycle/brake-disc.png" alt="" srcset="">
+                            </div>
+                              <span>DT Swiss 29-Inch </span> 
+                     </div>
+                        </div>
+                         <div>
+                          <div class="ditels-part">
+                            <div class="part-img">
+                              <img src="img/section/part-cycle/weight.png" alt="" srcset="">
+                            </div>
+                              <span>DT Swiss 29-Inch </span> 
+                      </div>
+                      <div class="ditels-part">
+                            <div class="part-img">
+                              <img src="img/section/part-cycle/membrane .png" alt="" srcset="">
+                            </div>
+                              <span>DT Swiss 29-Inch </span> 
+                      </div>
+                         </div>
+                             
+                       </div>
+                         <div class="seet-color-opstion">
+                               
+                                <div class="seet-img">
+                                  <input id="demo3_21" type="text" value="" name="demo3_21" class="form-control">
+                                </div>
+                         </div>
+                           <div class="price-cy1 d-flex gap-3 align-items-center">
+                            <button type="button" class="btn btn-secondary rounded-1">Add to Card </button>
+                               <span>Price $500</span>
+                           </div>      
+               </div>
+                   </div>
+               </div>
+          </div>
+    </div>
+
+     <section class="trending-products">
+
+      
+
+       <div class="container">
+         <div class="trnading-title-box">
+           <h2>Trending Products</h2>
+           <a href=""> view All  <i class="fa fa-arrow-right"></i> </a>
+          </div>
+            
+          <div class="row">
+               <div class="col-xl-6  col-md-4">
+                 <div class="tranding-card">
+                      <div class="card-icon">
+                        <div class="card-icon-1">
+                          <a class="view" href="#test-form">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <g clip-path="url(#clip0_1_1098)">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M17.9609 10.3438C16.3493 13.242 13.293 15.0424 9.9864 15.0424C6.67761 15.0424 3.62139 13.242 2.00978 10.3438C1.88566 10.1188 1.88566 9.88092 2.00978 9.65607C3.62139 6.75795 6.67761 4.95779 9.9864 4.95779C13.293 4.95779 16.3493 6.75795 17.9609 9.65607C18.0872 9.88092 18.0872 10.1188 17.9609 10.3438ZM18.9903 9.08146C17.1711 5.80932 13.7211 3.77686 9.9864 3.77686C6.24955 3.77686 2.79952 5.80932 0.980316 9.08146C0.654999 9.66529 0.654999 10.3346 0.980316 10.918C2.79952 14.1902 6.24955 16.2231 9.9864 16.2231C13.7211 16.2231 17.1711 14.1902 18.9903 10.918C19.3157 10.3347 19.3157 9.66529 18.9903 9.08146ZM9.9864 12.4224C11.3198 12.4224 12.4049 11.3358 12.4049 9.99986C12.4049 8.66396 11.3198 7.57732 9.9864 7.57732C8.65089 7.57732 7.5658 8.66396 7.5658 9.99986C7.5658 11.3358 8.65093 12.4224 9.9864 12.4224ZM9.9864 6.39639C8.00025 6.39639 6.38654 8.01307 6.38654 9.9999C6.38654 11.9872 8.00029 13.6032 9.9864 13.6032C11.9704 13.6032 13.5841 11.9871 13.5841 9.9999C13.5841 8.01307 11.9704 6.39639 9.9864 6.39639Z" fill="#6897D9"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_1_1098">
+                            <rect width="19.9715" height="20" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                            </a> 
+                        </div>
+                        <div class="card-icon-1">
+                          <a  href="javascript:void(0)">  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.834839 0.874939C0.834839 0.529761 1.11426 0.249939 1.45895 0.249939H3.04109C3.66432 0.249939 4.21847 0.647101 4.4195 1.23786L4.80922 2.38307H15.189C17.372 2.38307 19.1417 4.15527 19.1417 6.3414V9.79342C19.1417 11.9795 17.372 13.7517 15.189 13.7517H8.96132C7.04784 13.7517 5.40913 12.3792 5.07088 10.4931L3.7566 3.165L3.23801 1.64107C3.20929 1.55668 3.13013 1.49994 3.04109 1.49994H1.45895C1.11426 1.49994 0.834839 1.22012 0.834839 0.874939ZM5.10874 3.63307L6.29944 10.2722C6.53087 11.5626 7.65209 12.5017 8.96132 12.5017H15.189C16.6827 12.5017 17.8935 11.2892 17.8935 9.79342V6.3414C17.8935 4.84563 16.6827 3.63307 15.189 3.63307H5.10874Z" fill="#6897D9"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.90613 16.0834C7.90613 15.3931 8.46497 14.8334 9.15435 14.8334H9.16267C9.85204 14.8334 10.4109 15.3931 10.4109 16.0834C10.4109 16.7738 9.85204 17.3334 9.16267 17.3334H9.15435C8.46497 17.3334 7.90613 16.7738 7.90613 16.0834Z" fill="#6897D9"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5634 16.0834C14.5634 15.3931 15.1222 14.8334 15.8116 14.8334H15.8199C16.5093 14.8334 17.0681 15.3931 17.0681 16.0834C17.0681 16.7738 16.5093 17.3334 15.8199 17.3334H15.8116C15.1222 17.3334 14.5634 16.7738 14.5634 16.0834Z" fill="#6897D9"/>
+                            </svg></a>
+                        </div>
+                        <div class="card-icon-1">
+                          <a href="javascript:void(0)">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                          <g clip-path="url(#clip0_1_1094)">
+                          <path d="M10.0001 18.8873C9.71534 18.8873 9.44083 18.7842 9.2269 18.5968C8.41895 17.8903 7.63999 17.2264 6.95274 16.6408L6.94923 16.6377C4.93431 14.9207 3.19435 13.4378 1.98372 11.9771C0.630423 10.3441 8.39233e-05 8.79578 8.39233e-05 7.10434C8.39233e-05 5.46097 0.56359 3.94485 1.58669 2.83508C2.622 1.71219 4.04259 1.09375 5.58723 1.09375C6.74171 1.09375 7.79899 1.45874 8.72962 2.1785C9.19929 2.54181 9.625 2.98645 10.0001 3.5051C10.3753 2.98645 10.8008 2.54181 11.2707 2.1785C12.2013 1.45874 13.2586 1.09375 14.4131 1.09375C15.9575 1.09375 17.3783 1.71219 18.4136 2.83508C19.4367 3.94485 20 5.46097 20 7.10434C20 8.79578 19.3699 10.3441 18.0166 11.9769C16.8059 13.4378 15.0661 14.9205 13.0515 16.6374C12.363 17.224 11.5829 17.8889 10.7731 18.5971C10.5593 18.7842 10.2846 18.8873 10.0001 18.8873ZM5.58723 2.26532C4.3737 2.26532 3.2589 2.74963 2.44789 3.62915C1.62484 4.52194 1.1715 5.75607 1.1715 7.10434C1.1715 8.52692 1.70021 9.79919 2.88567 11.2296C4.03145 12.6122 5.7357 14.0645 7.70896 15.7462L7.71262 15.7492C8.40247 16.3371 9.18448 17.0036 9.99839 17.7153C10.8172 17.0023 11.6004 16.3347 12.2916 15.7458C14.2647 14.0642 15.9688 12.6122 17.1146 11.2296C18.2999 9.79919 18.8286 8.52692 18.8286 7.10434C18.8286 5.75607 18.3753 4.52194 17.5522 3.62915C16.7414 2.74963 15.6264 2.26532 14.4131 2.26532C13.5241 2.26532 12.7079 2.54791 11.9872 3.10516C11.345 3.60199 10.8976 4.23004 10.6353 4.66949C10.5004 4.89548 10.263 5.03036 10.0001 5.03036C9.73716 5.03036 9.49973 4.89548 9.36484 4.66949C9.1027 4.23004 8.65531 3.60199 8.01292 3.10516C7.29225 2.54791 6.47605 2.26532 5.58723 2.26532Z" fill="#6897D9"/>
+                          </g>
+                          <defs>
+                          <clipPath id="clip0_1_1094">
+                          <rect width="20" height="20" fill="white"/>
+                          </clipPath>
+                          </defs>
+                          </svg> 
+                           </a>
+                        </div>
+                      </div>
+                         <div class="tranding-cycle-img">
+                          <img src="img/section/trening-cycle-1.png" alt="" srcset="">
+                         </div>
+                          <div class="review-box"> 
+                            <i class="fa-solid fa-star"></i> 
+                            <span>8/10</span>
+                            <i class="fa-solid fa-circle"></i>
+                            <span>12 review</span> 
+                          </div>
+                          <h3>E-Power L7 27.5T Electric Cycle with Front Suspension & Dual DISC Brake - Grey. Ideal</h3>
+                          <div class="price-box">
+                            <span>$190</span>
+                            <span><strike> $200 </strike></span>
+                          </div>
+                 </div>
+               </div>
+               <div class="col-xl-6 col-md-8 ">
+                   <div class="row">
+                     
+                        <div class="col-md-6">
+                          <div class="tranding-card-2">
+                               <div class="card-icon">
+                                 <div class="card-icon-1">
+                                   <a class="view" href="#test-form">
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                     <g clip-path="url(#clip0_1_1098)">
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M17.9609 10.3438C16.3493 13.242 13.293 15.0424 9.9864 15.0424C6.67761 15.0424 3.62139 13.242 2.00978 10.3438C1.88566 10.1188 1.88566 9.88092 2.00978 9.65607C3.62139 6.75795 6.67761 4.95779 9.9864 4.95779C13.293 4.95779 16.3493 6.75795 17.9609 9.65607C18.0872 9.88092 18.0872 10.1188 17.9609 10.3438ZM18.9903 9.08146C17.1711 5.80932 13.7211 3.77686 9.9864 3.77686C6.24955 3.77686 2.79952 5.80932 0.980316 9.08146C0.654999 9.66529 0.654999 10.3346 0.980316 10.918C2.79952 14.1902 6.24955 16.2231 9.9864 16.2231C13.7211 16.2231 17.1711 14.1902 18.9903 10.918C19.3157 10.3347 19.3157 9.66529 18.9903 9.08146ZM9.9864 12.4224C11.3198 12.4224 12.4049 11.3358 12.4049 9.99986C12.4049 8.66396 11.3198 7.57732 9.9864 7.57732C8.65089 7.57732 7.5658 8.66396 7.5658 9.99986C7.5658 11.3358 8.65093 12.4224 9.9864 12.4224ZM9.9864 6.39639C8.00025 6.39639 6.38654 8.01307 6.38654 9.9999C6.38654 11.9872 8.00029 13.6032 9.9864 13.6032C11.9704 13.6032 13.5841 11.9871 13.5841 9.9999C13.5841 8.01307 11.9704 6.39639 9.9864 6.39639Z" fill="#6897D9"/>
+                                     </g>
+                                     <defs>
+                                     <clipPath id="clip0_1_1098">
+                                     <rect width="19.9715" height="20" fill="white"/>
+                                     </clipPath>
+                                     </defs>
+                                     </svg>
+                                     </a>
+                                 </div>
+                                 <div class="card-icon-1">
+                                   <a href="javascript:void(0)">  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18" fill="none">
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0.834839 0.874939C0.834839 0.529761 1.11426 0.249939 1.45895 0.249939H3.04109C3.66432 0.249939 4.21847 0.647101 4.4195 1.23786L4.80922 2.38307H15.189C17.372 2.38307 19.1417 4.15527 19.1417 6.3414V9.79342C19.1417 11.9795 17.372 13.7517 15.189 13.7517H8.96132C7.04784 13.7517 5.40913 12.3792 5.07088 10.4931L3.7566 3.165L3.23801 1.64107C3.20929 1.55668 3.13013 1.49994 3.04109 1.49994H1.45895C1.11426 1.49994 0.834839 1.22012 0.834839 0.874939ZM5.10874 3.63307L6.29944 10.2722C6.53087 11.5626 7.65209 12.5017 8.96132 12.5017H15.189C16.6827 12.5017 17.8935 11.2892 17.8935 9.79342V6.3414C17.8935 4.84563 16.6827 3.63307 15.189 3.63307H5.10874Z" fill="#6897D9"/>
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M7.90613 16.0834C7.90613 15.3931 8.46497 14.8334 9.15435 14.8334H9.16267C9.85204 14.8334 10.4109 15.3931 10.4109 16.0834C10.4109 16.7738 9.85204 17.3334 9.16267 17.3334H9.15435C8.46497 17.3334 7.90613 16.7738 7.90613 16.0834Z" fill="#6897D9"/>
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5634 16.0834C14.5634 15.3931 15.1222 14.8334 15.8116 14.8334H15.8199C16.5093 14.8334 17.0681 15.3931 17.0681 16.0834C17.0681 16.7738 16.5093 17.3334 15.8199 17.3334H15.8116C15.1222 17.3334 14.5634 16.7738 14.5634 16.0834Z" fill="#6897D9"/>
+                                     </svg></a>
+                                 </div>
+                                 <div class="card-icon-1">
+                                   <a href="javascript:void(0)">
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                   <g clip-path="url(#clip0_1_1094)">
+                                   <path d="M10.0001 18.8873C9.71534 18.8873 9.44083 18.7842 9.2269 18.5968C8.41895 17.8903 7.63999 17.2264 6.95274 16.6408L6.94923 16.6377C4.93431 14.9207 3.19435 13.4378 1.98372 11.9771C0.630423 10.3441 8.39233e-05 8.79578 8.39233e-05 7.10434C8.39233e-05 5.46097 0.56359 3.94485 1.58669 2.83508C2.622 1.71219 4.04259 1.09375 5.58723 1.09375C6.74171 1.09375 7.79899 1.45874 8.72962 2.1785C9.19929 2.54181 9.625 2.98645 10.0001 3.5051C10.3753 2.98645 10.8008 2.54181 11.2707 2.1785C12.2013 1.45874 13.2586 1.09375 14.4131 1.09375C15.9575 1.09375 17.3783 1.71219 18.4136 2.83508C19.4367 3.94485 20 5.46097 20 7.10434C20 8.79578 19.3699 10.3441 18.0166 11.9769C16.8059 13.4378 15.0661 14.9205 13.0515 16.6374C12.363 17.224 11.5829 17.8889 10.7731 18.5971C10.5593 18.7842 10.2846 18.8873 10.0001 18.8873ZM5.58723 2.26532C4.3737 2.26532 3.2589 2.74963 2.44789 3.62915C1.62484 4.52194 1.1715 5.75607 1.1715 7.10434C1.1715 8.52692 1.70021 9.79919 2.88567 11.2296C4.03145 12.6122 5.7357 14.0645 7.70896 15.7462L7.71262 15.7492C8.40247 16.3371 9.18448 17.0036 9.99839 17.7153C10.8172 17.0023 11.6004 16.3347 12.2916 15.7458C14.2647 14.0642 15.9688 12.6122 17.1146 11.2296C18.2999 9.79919 18.8286 8.52692 18.8286 7.10434C18.8286 5.75607 18.3753 4.52194 17.5522 3.62915C16.7414 2.74963 15.6264 2.26532 14.4131 2.26532C13.5241 2.26532 12.7079 2.54791 11.9872 3.10516C11.345 3.60199 10.8976 4.23004 10.6353 4.66949C10.5004 4.89548 10.263 5.03036 10.0001 5.03036C9.73716 5.03036 9.49973 4.89548 9.36484 4.66949C9.1027 4.23004 8.65531 3.60199 8.01292 3.10516C7.29225 2.54791 6.47605 2.26532 5.58723 2.26532Z" fill="#6897D9"/>
+                                   </g>
+                                   <defs>
+                                   <clipPath id="clip0_1_1094">
+                                   <rect width="20" height="20" fill="white"/>
+                                   </clipPath>
+                                   </defs>
+                                   </svg> 
+                                    </a>
+                                 </div>
+                               </div>
+                                  <div class="tranding-cycle-img-1">
+                                   <img src="img/section/trending-cycle-3.png" alt="" srcset="">
+                                  </div>
+                                   <div class="review-box"> 
+                                     <i class="fa-solid fa-star"></i> 
+                                     <span>8/10</span>
+                                     <i class="fa-solid fa-circle"></i>
+                                     <span>12 review</span> 
+                                   </div>
+                                   <h3>Motors Youth L 2.0 Series Electric Cycle 27.5" Wheels With Front Suspension</h3>
+                                   <div class="price-box">
+                                     <span>$190</span>
+                                     <span><strike> $200 </strike></span>
+                                   </div>
+                          </div>
+                        </div>
+                     
+                        <div class="col-md-6">
+                          <div class="tranding-card-2">
+                               <div class="card-icon">
+                                 <div class="card-icon-1">
+                                   <a href="javascript:void(0)">
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                     <g clip-path="url(#clip0_1_1098)">
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M17.9609 10.3438C16.3493 13.242 13.293 15.0424 9.9864 15.0424C6.67761 15.0424 3.62139 13.242 2.00978 10.3438C1.88566 10.1188 1.88566 9.88092 2.00978 9.65607C3.62139 6.75795 6.67761 4.95779 9.9864 4.95779C13.293 4.95779 16.3493 6.75795 17.9609 9.65607C18.0872 9.88092 18.0872 10.1188 17.9609 10.3438ZM18.9903 9.08146C17.1711 5.80932 13.7211 3.77686 9.9864 3.77686C6.24955 3.77686 2.79952 5.80932 0.980316 9.08146C0.654999 9.66529 0.654999 10.3346 0.980316 10.918C2.79952 14.1902 6.24955 16.2231 9.9864 16.2231C13.7211 16.2231 17.1711 14.1902 18.9903 10.918C19.3157 10.3347 19.3157 9.66529 18.9903 9.08146ZM9.9864 12.4224C11.3198 12.4224 12.4049 11.3358 12.4049 9.99986C12.4049 8.66396 11.3198 7.57732 9.9864 7.57732C8.65089 7.57732 7.5658 8.66396 7.5658 9.99986C7.5658 11.3358 8.65093 12.4224 9.9864 12.4224ZM9.9864 6.39639C8.00025 6.39639 6.38654 8.01307 6.38654 9.9999C6.38654 11.9872 8.00029 13.6032 9.9864 13.6032C11.9704 13.6032 13.5841 11.9871 13.5841 9.9999C13.5841 8.01307 11.9704 6.39639 9.9864 6.39639Z" fill="#6897D9"/>
+                                     </g>
+                                     <defs>
+                                     <clipPath id="clip0_1_1098">
+                                     <rect width="19.9715" height="20" fill="white"/>
+                                     </clipPath>
+                                     </defs>
+                                     </svg>
+                                     </a>
+                                 </div>
+                                 <div class="card-icon-1">
+                                   <a href="javascript:void(0)">  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18" fill="none">
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0.834839 0.874939C0.834839 0.529761 1.11426 0.249939 1.45895 0.249939H3.04109C3.66432 0.249939 4.21847 0.647101 4.4195 1.23786L4.80922 2.38307H15.189C17.372 2.38307 19.1417 4.15527 19.1417 6.3414V9.79342C19.1417 11.9795 17.372 13.7517 15.189 13.7517H8.96132C7.04784 13.7517 5.40913 12.3792 5.07088 10.4931L3.7566 3.165L3.23801 1.64107C3.20929 1.55668 3.13013 1.49994 3.04109 1.49994H1.45895C1.11426 1.49994 0.834839 1.22012 0.834839 0.874939ZM5.10874 3.63307L6.29944 10.2722C6.53087 11.5626 7.65209 12.5017 8.96132 12.5017H15.189C16.6827 12.5017 17.8935 11.2892 17.8935 9.79342V6.3414C17.8935 4.84563 16.6827 3.63307 15.189 3.63307H5.10874Z" fill="#6897D9"/>
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M7.90613 16.0834C7.90613 15.3931 8.46497 14.8334 9.15435 14.8334H9.16267C9.85204 14.8334 10.4109 15.3931 10.4109 16.0834C10.4109 16.7738 9.85204 17.3334 9.16267 17.3334H9.15435C8.46497 17.3334 7.90613 16.7738 7.90613 16.0834Z" fill="#6897D9"/>
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5634 16.0834C14.5634 15.3931 15.1222 14.8334 15.8116 14.8334H15.8199C16.5093 14.8334 17.0681 15.3931 17.0681 16.0834C17.0681 16.7738 16.5093 17.3334 15.8199 17.3334H15.8116C15.1222 17.3334 14.5634 16.7738 14.5634 16.0834Z" fill="#6897D9"/>
+                                     </svg></a>
+                                 </div>
+                                 <div class="card-icon-1">
+                                   <a href="javascript:void(0)">
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                   <g clip-path="url(#clip0_1_1094)">
+                                   <path d="M10.0001 18.8873C9.71534 18.8873 9.44083 18.7842 9.2269 18.5968C8.41895 17.8903 7.63999 17.2264 6.95274 16.6408L6.94923 16.6377C4.93431 14.9207 3.19435 13.4378 1.98372 11.9771C0.630423 10.3441 8.39233e-05 8.79578 8.39233e-05 7.10434C8.39233e-05 5.46097 0.56359 3.94485 1.58669 2.83508C2.622 1.71219 4.04259 1.09375 5.58723 1.09375C6.74171 1.09375 7.79899 1.45874 8.72962 2.1785C9.19929 2.54181 9.625 2.98645 10.0001 3.5051C10.3753 2.98645 10.8008 2.54181 11.2707 2.1785C12.2013 1.45874 13.2586 1.09375 14.4131 1.09375C15.9575 1.09375 17.3783 1.71219 18.4136 2.83508C19.4367 3.94485 20 5.46097 20 7.10434C20 8.79578 19.3699 10.3441 18.0166 11.9769C16.8059 13.4378 15.0661 14.9205 13.0515 16.6374C12.363 17.224 11.5829 17.8889 10.7731 18.5971C10.5593 18.7842 10.2846 18.8873 10.0001 18.8873ZM5.58723 2.26532C4.3737 2.26532 3.2589 2.74963 2.44789 3.62915C1.62484 4.52194 1.1715 5.75607 1.1715 7.10434C1.1715 8.52692 1.70021 9.79919 2.88567 11.2296C4.03145 12.6122 5.7357 14.0645 7.70896 15.7462L7.71262 15.7492C8.40247 16.3371 9.18448 17.0036 9.99839 17.7153C10.8172 17.0023 11.6004 16.3347 12.2916 15.7458C14.2647 14.0642 15.9688 12.6122 17.1146 11.2296C18.2999 9.79919 18.8286 8.52692 18.8286 7.10434C18.8286 5.75607 18.3753 4.52194 17.5522 3.62915C16.7414 2.74963 15.6264 2.26532 14.4131 2.26532C13.5241 2.26532 12.7079 2.54791 11.9872 3.10516C11.345 3.60199 10.8976 4.23004 10.6353 4.66949C10.5004 4.89548 10.263 5.03036 10.0001 5.03036C9.73716 5.03036 9.49973 4.89548 9.36484 4.66949C9.1027 4.23004 8.65531 3.60199 8.01292 3.10516C7.29225 2.54791 6.47605 2.26532 5.58723 2.26532Z" fill="#6897D9"/>
+                                   </g>
+                                   <defs>
+                                   <clipPath id="clip0_1_1094">
+                                   <rect width="20" height="20" fill="white"/>
+                                   </clipPath>
+                                   </defs>
+                                   </svg> 
+                                    </a>
+                                 </div>
+                               </div>
+                                  <div class="tranding-cycle-img-1">
+                                   <img src="img/section/rening-cycle-2.png" alt="" srcset="">
+                                  </div>
+                                   <div class="review-box"> 
+                                     <i class="fa-solid fa-star"></i> 
+                                     <span>8/10</span>
+                                     <i class="fa-solid fa-circle"></i>
+                                     <span>12 review</span> 
+                                   </div>
+                                   <h3>Stark 27.5T MultiSpeed MTB Cycle with Front Suspension & Dual Disc Brake</h3>
+                                   <div class="price-box">
+                                     <span>$190</span>
+                                     <span><strike> $200 </strike></span>
+                                   </div>
+                          </div>
+                        </div>
+                     
+                        <div class="col-md-6">
+                          <div class="tranding-card-2">
+                               <div class="card-icon">
+                                 <div class="card-icon-1">
+                                   <a href="javascript:void(0)">
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                     <g clip-path="url(#clip0_1_1098)">
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M17.9609 10.3438C16.3493 13.242 13.293 15.0424 9.9864 15.0424C6.67761 15.0424 3.62139 13.242 2.00978 10.3438C1.88566 10.1188 1.88566 9.88092 2.00978 9.65607C3.62139 6.75795 6.67761 4.95779 9.9864 4.95779C13.293 4.95779 16.3493 6.75795 17.9609 9.65607C18.0872 9.88092 18.0872 10.1188 17.9609 10.3438ZM18.9903 9.08146C17.1711 5.80932 13.7211 3.77686 9.9864 3.77686C6.24955 3.77686 2.79952 5.80932 0.980316 9.08146C0.654999 9.66529 0.654999 10.3346 0.980316 10.918C2.79952 14.1902 6.24955 16.2231 9.9864 16.2231C13.7211 16.2231 17.1711 14.1902 18.9903 10.918C19.3157 10.3347 19.3157 9.66529 18.9903 9.08146ZM9.9864 12.4224C11.3198 12.4224 12.4049 11.3358 12.4049 9.99986C12.4049 8.66396 11.3198 7.57732 9.9864 7.57732C8.65089 7.57732 7.5658 8.66396 7.5658 9.99986C7.5658 11.3358 8.65093 12.4224 9.9864 12.4224ZM9.9864 6.39639C8.00025 6.39639 6.38654 8.01307 6.38654 9.9999C6.38654 11.9872 8.00029 13.6032 9.9864 13.6032C11.9704 13.6032 13.5841 11.9871 13.5841 9.9999C13.5841 8.01307 11.9704 6.39639 9.9864 6.39639Z" fill="#6897D9"/>
+                                     </g>
+                                     <defs>
+                                     <clipPath id="clip0_1_1098">
+                                     <rect width="19.9715" height="20" fill="white"/>
+                                     </clipPath>
+                                     </defs>
+                                     </svg>
+                                     </a>
+                                 </div>
+                                 <div class="card-icon-1">
+                                   <a href="javascript:void(0)">  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18" fill="none">
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0.834839 0.874939C0.834839 0.529761 1.11426 0.249939 1.45895 0.249939H3.04109C3.66432 0.249939 4.21847 0.647101 4.4195 1.23786L4.80922 2.38307H15.189C17.372 2.38307 19.1417 4.15527 19.1417 6.3414V9.79342C19.1417 11.9795 17.372 13.7517 15.189 13.7517H8.96132C7.04784 13.7517 5.40913 12.3792 5.07088 10.4931L3.7566 3.165L3.23801 1.64107C3.20929 1.55668 3.13013 1.49994 3.04109 1.49994H1.45895C1.11426 1.49994 0.834839 1.22012 0.834839 0.874939ZM5.10874 3.63307L6.29944 10.2722C6.53087 11.5626 7.65209 12.5017 8.96132 12.5017H15.189C16.6827 12.5017 17.8935 11.2892 17.8935 9.79342V6.3414C17.8935 4.84563 16.6827 3.63307 15.189 3.63307H5.10874Z" fill="#6897D9"/>
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M7.90613 16.0834C7.90613 15.3931 8.46497 14.8334 9.15435 14.8334H9.16267C9.85204 14.8334 10.4109 15.3931 10.4109 16.0834C10.4109 16.7738 9.85204 17.3334 9.16267 17.3334H9.15435C8.46497 17.3334 7.90613 16.7738 7.90613 16.0834Z" fill="#6897D9"/>
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5634 16.0834C14.5634 15.3931 15.1222 14.8334 15.8116 14.8334H15.8199C16.5093 14.8334 17.0681 15.3931 17.0681 16.0834C17.0681 16.7738 16.5093 17.3334 15.8199 17.3334H15.8116C15.1222 17.3334 14.5634 16.7738 14.5634 16.0834Z" fill="#6897D9"/>
+                                     </svg></a>
+                                 </div>
+                                 <div class="card-icon-1">
+                                   <a href="javascript:void(0)">
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                   <g clip-path="url(#clip0_1_1094)">
+                                   <path d="M10.0001 18.8873C9.71534 18.8873 9.44083 18.7842 9.2269 18.5968C8.41895 17.8903 7.63999 17.2264 6.95274 16.6408L6.94923 16.6377C4.93431 14.9207 3.19435 13.4378 1.98372 11.9771C0.630423 10.3441 8.39233e-05 8.79578 8.39233e-05 7.10434C8.39233e-05 5.46097 0.56359 3.94485 1.58669 2.83508C2.622 1.71219 4.04259 1.09375 5.58723 1.09375C6.74171 1.09375 7.79899 1.45874 8.72962 2.1785C9.19929 2.54181 9.625 2.98645 10.0001 3.5051C10.3753 2.98645 10.8008 2.54181 11.2707 2.1785C12.2013 1.45874 13.2586 1.09375 14.4131 1.09375C15.9575 1.09375 17.3783 1.71219 18.4136 2.83508C19.4367 3.94485 20 5.46097 20 7.10434C20 8.79578 19.3699 10.3441 18.0166 11.9769C16.8059 13.4378 15.0661 14.9205 13.0515 16.6374C12.363 17.224 11.5829 17.8889 10.7731 18.5971C10.5593 18.7842 10.2846 18.8873 10.0001 18.8873ZM5.58723 2.26532C4.3737 2.26532 3.2589 2.74963 2.44789 3.62915C1.62484 4.52194 1.1715 5.75607 1.1715 7.10434C1.1715 8.52692 1.70021 9.79919 2.88567 11.2296C4.03145 12.6122 5.7357 14.0645 7.70896 15.7462L7.71262 15.7492C8.40247 16.3371 9.18448 17.0036 9.99839 17.7153C10.8172 17.0023 11.6004 16.3347 12.2916 15.7458C14.2647 14.0642 15.9688 12.6122 17.1146 11.2296C18.2999 9.79919 18.8286 8.52692 18.8286 7.10434C18.8286 5.75607 18.3753 4.52194 17.5522 3.62915C16.7414 2.74963 15.6264 2.26532 14.4131 2.26532C13.5241 2.26532 12.7079 2.54791 11.9872 3.10516C11.345 3.60199 10.8976 4.23004 10.6353 4.66949C10.5004 4.89548 10.263 5.03036 10.0001 5.03036C9.73716 5.03036 9.49973 4.89548 9.36484 4.66949C9.1027 4.23004 8.65531 3.60199 8.01292 3.10516C7.29225 2.54791 6.47605 2.26532 5.58723 2.26532Z" fill="#6897D9"/>
+                                   </g>
+                                   <defs>
+                                   <clipPath id="clip0_1_1094">
+                                   <rect width="20" height="20" fill="white"/>
+                                   </clipPath>
+                                   </defs>
+                                   </svg> 
+                                    </a>
+                                 </div>
+                               </div>
+                                  <div class="tranding-cycle-img-1">
+                                   <img src="img/section/rening-cycle-2.png" alt="" srcset="">
+                                  </div>
+                                   <div class="review-box"> 
+                                     <i class="fa-solid fa-star"></i> 
+                                     <span>8/10</span>
+                                     <i class="fa-solid fa-circle"></i>
+                                     <span>12 review</span> 
+                                   </div>
+                                   <h3>Stark 27.5T MultiSpeed MTB Cycle with Front Suspension & Dual Disc Brake</h3>
+                                   <div class="price-box">
+                                     <span>$190</span>
+                                     <span><strike> $200 </strike></span>
+                                   </div>
+                          </div>
+                        </div>
+                     
+                        <div class="col-md-6">
+                          <div class="tranding-card-2">
+                               <div class="card-icon">
+                                 <div class="card-icon-1">
+                                   <a href="javascript:void(0)">
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                     <g clip-path="url(#clip0_1_1098)">
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M17.9609 10.3438C16.3493 13.242 13.293 15.0424 9.9864 15.0424C6.67761 15.0424 3.62139 13.242 2.00978 10.3438C1.88566 10.1188 1.88566 9.88092 2.00978 9.65607C3.62139 6.75795 6.67761 4.95779 9.9864 4.95779C13.293 4.95779 16.3493 6.75795 17.9609 9.65607C18.0872 9.88092 18.0872 10.1188 17.9609 10.3438ZM18.9903 9.08146C17.1711 5.80932 13.7211 3.77686 9.9864 3.77686C6.24955 3.77686 2.79952 5.80932 0.980316 9.08146C0.654999 9.66529 0.654999 10.3346 0.980316 10.918C2.79952 14.1902 6.24955 16.2231 9.9864 16.2231C13.7211 16.2231 17.1711 14.1902 18.9903 10.918C19.3157 10.3347 19.3157 9.66529 18.9903 9.08146ZM9.9864 12.4224C11.3198 12.4224 12.4049 11.3358 12.4049 9.99986C12.4049 8.66396 11.3198 7.57732 9.9864 7.57732C8.65089 7.57732 7.5658 8.66396 7.5658 9.99986C7.5658 11.3358 8.65093 12.4224 9.9864 12.4224ZM9.9864 6.39639C8.00025 6.39639 6.38654 8.01307 6.38654 9.9999C6.38654 11.9872 8.00029 13.6032 9.9864 13.6032C11.9704 13.6032 13.5841 11.9871 13.5841 9.9999C13.5841 8.01307 11.9704 6.39639 9.9864 6.39639Z" fill="#6897D9"/>
+                                     </g>
+                                     <defs>
+                                     <clipPath id="clip0_1_1098">
+                                     <rect width="19.9715" height="20" fill="white"/>
+                                     </clipPath>
+                                     </defs>
+                                     </svg>
+                                     </a>
+                                 </div>
+                                 <div class="card-icon-1">
+                                   <a href="javascript:void(0)">  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18" fill="none">
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0.834839 0.874939C0.834839 0.529761 1.11426 0.249939 1.45895 0.249939H3.04109C3.66432 0.249939 4.21847 0.647101 4.4195 1.23786L4.80922 2.38307H15.189C17.372 2.38307 19.1417 4.15527 19.1417 6.3414V9.79342C19.1417 11.9795 17.372 13.7517 15.189 13.7517H8.96132C7.04784 13.7517 5.40913 12.3792 5.07088 10.4931L3.7566 3.165L3.23801 1.64107C3.20929 1.55668 3.13013 1.49994 3.04109 1.49994H1.45895C1.11426 1.49994 0.834839 1.22012 0.834839 0.874939ZM5.10874 3.63307L6.29944 10.2722C6.53087 11.5626 7.65209 12.5017 8.96132 12.5017H15.189C16.6827 12.5017 17.8935 11.2892 17.8935 9.79342V6.3414C17.8935 4.84563 16.6827 3.63307 15.189 3.63307H5.10874Z" fill="#6897D9"/>
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M7.90613 16.0834C7.90613 15.3931 8.46497 14.8334 9.15435 14.8334H9.16267C9.85204 14.8334 10.4109 15.3931 10.4109 16.0834C10.4109 16.7738 9.85204 17.3334 9.16267 17.3334H9.15435C8.46497 17.3334 7.90613 16.7738 7.90613 16.0834Z" fill="#6897D9"/>
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5634 16.0834C14.5634 15.3931 15.1222 14.8334 15.8116 14.8334H15.8199C16.5093 14.8334 17.0681 15.3931 17.0681 16.0834C17.0681 16.7738 16.5093 17.3334 15.8199 17.3334H15.8116C15.1222 17.3334 14.5634 16.7738 14.5634 16.0834Z" fill="#6897D9"/>
+                                     </svg></a>
+                                 </div>
+                                 <div class="card-icon-1">
+                                   <a href="javascript:void(0)">
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                   <g clip-path="url(#clip0_1_1094)">
+                                   <path d="M10.0001 18.8873C9.71534 18.8873 9.44083 18.7842 9.2269 18.5968C8.41895 17.8903 7.63999 17.2264 6.95274 16.6408L6.94923 16.6377C4.93431 14.9207 3.19435 13.4378 1.98372 11.9771C0.630423 10.3441 8.39233e-05 8.79578 8.39233e-05 7.10434C8.39233e-05 5.46097 0.56359 3.94485 1.58669 2.83508C2.622 1.71219 4.04259 1.09375 5.58723 1.09375C6.74171 1.09375 7.79899 1.45874 8.72962 2.1785C9.19929 2.54181 9.625 2.98645 10.0001 3.5051C10.3753 2.98645 10.8008 2.54181 11.2707 2.1785C12.2013 1.45874 13.2586 1.09375 14.4131 1.09375C15.9575 1.09375 17.3783 1.71219 18.4136 2.83508C19.4367 3.94485 20 5.46097 20 7.10434C20 8.79578 19.3699 10.3441 18.0166 11.9769C16.8059 13.4378 15.0661 14.9205 13.0515 16.6374C12.363 17.224 11.5829 17.8889 10.7731 18.5971C10.5593 18.7842 10.2846 18.8873 10.0001 18.8873ZM5.58723 2.26532C4.3737 2.26532 3.2589 2.74963 2.44789 3.62915C1.62484 4.52194 1.1715 5.75607 1.1715 7.10434C1.1715 8.52692 1.70021 9.79919 2.88567 11.2296C4.03145 12.6122 5.7357 14.0645 7.70896 15.7462L7.71262 15.7492C8.40247 16.3371 9.18448 17.0036 9.99839 17.7153C10.8172 17.0023 11.6004 16.3347 12.2916 15.7458C14.2647 14.0642 15.9688 12.6122 17.1146 11.2296C18.2999 9.79919 18.8286 8.52692 18.8286 7.10434C18.8286 5.75607 18.3753 4.52194 17.5522 3.62915C16.7414 2.74963 15.6264 2.26532 14.4131 2.26532C13.5241 2.26532 12.7079 2.54791 11.9872 3.10516C11.345 3.60199 10.8976 4.23004 10.6353 4.66949C10.5004 4.89548 10.263 5.03036 10.0001 5.03036C9.73716 5.03036 9.49973 4.89548 9.36484 4.66949C9.1027 4.23004 8.65531 3.60199 8.01292 3.10516C7.29225 2.54791 6.47605 2.26532 5.58723 2.26532Z" fill="#6897D9"/>
+                                   </g>
+                                   <defs>
+                                   <clipPath id="clip0_1_1094">
+                                   <rect width="20" height="20" fill="white"/>
+                                   </clipPath>
+                                   </defs>
+                                   </svg> 
+                                    </a>
+                                 </div>
+                               </div>
+                                  <div class="tranding-cycle-img-1">
+                                   <img src="img/section/rening-cycle-2.png" alt="" srcset="">
+                                  </div>
+                                   <div class="review-box"> 
+                                     <i class="fa-solid fa-star"></i> 
+                                     <span>8/10</span>
+                                     <i class="fa-solid fa-circle"></i>
+                                     <span>12 review</span> 
+                                   </div>
+                                   <h3>Stark 27.5T MultiSpeed MTB Cycle with Front Suspension & Dual Disc Brake</h3>
+                                   <div class="price-box">
+                                     <span>$190</span>
+                                     <span><strike> $200 </strike></span>
+                                   </div>
+                          </div>
+                        </div>
+                     
+                   </div>
+               </div>
+               
+               <div class="col-xl-6 col-md-8 ">
+                   <div class="row">
+                     
+                        <div class="col-md-6">
+                          <div class="tranding-card-2">
+                               <div class="card-icon">
+                                 <div class="card-icon-1">
+                                   <a href="javascript:void(0)">
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                     <g clip-path="url(#clip0_1_1098)">
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M17.9609 10.3438C16.3493 13.242 13.293 15.0424 9.9864 15.0424C6.67761 15.0424 3.62139 13.242 2.00978 10.3438C1.88566 10.1188 1.88566 9.88092 2.00978 9.65607C3.62139 6.75795 6.67761 4.95779 9.9864 4.95779C13.293 4.95779 16.3493 6.75795 17.9609 9.65607C18.0872 9.88092 18.0872 10.1188 17.9609 10.3438ZM18.9903 9.08146C17.1711 5.80932 13.7211 3.77686 9.9864 3.77686C6.24955 3.77686 2.79952 5.80932 0.980316 9.08146C0.654999 9.66529 0.654999 10.3346 0.980316 10.918C2.79952 14.1902 6.24955 16.2231 9.9864 16.2231C13.7211 16.2231 17.1711 14.1902 18.9903 10.918C19.3157 10.3347 19.3157 9.66529 18.9903 9.08146ZM9.9864 12.4224C11.3198 12.4224 12.4049 11.3358 12.4049 9.99986C12.4049 8.66396 11.3198 7.57732 9.9864 7.57732C8.65089 7.57732 7.5658 8.66396 7.5658 9.99986C7.5658 11.3358 8.65093 12.4224 9.9864 12.4224ZM9.9864 6.39639C8.00025 6.39639 6.38654 8.01307 6.38654 9.9999C6.38654 11.9872 8.00029 13.6032 9.9864 13.6032C11.9704 13.6032 13.5841 11.9871 13.5841 9.9999C13.5841 8.01307 11.9704 6.39639 9.9864 6.39639Z" fill="#6897D9"/>
+                                     </g>
+                                     <defs>
+                                     <clipPath id="clip0_1_1098">
+                                     <rect width="19.9715" height="20" fill="white"/>
+                                     </clipPath>
+                                     </defs>
+                                     </svg>
+                                     </a>
+                                 </div>
+                                 <div class="card-icon-1">
+                                   <a href="javascript:void(0)">  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18" fill="none">
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0.834839 0.874939C0.834839 0.529761 1.11426 0.249939 1.45895 0.249939H3.04109C3.66432 0.249939 4.21847 0.647101 4.4195 1.23786L4.80922 2.38307H15.189C17.372 2.38307 19.1417 4.15527 19.1417 6.3414V9.79342C19.1417 11.9795 17.372 13.7517 15.189 13.7517H8.96132C7.04784 13.7517 5.40913 12.3792 5.07088 10.4931L3.7566 3.165L3.23801 1.64107C3.20929 1.55668 3.13013 1.49994 3.04109 1.49994H1.45895C1.11426 1.49994 0.834839 1.22012 0.834839 0.874939ZM5.10874 3.63307L6.29944 10.2722C6.53087 11.5626 7.65209 12.5017 8.96132 12.5017H15.189C16.6827 12.5017 17.8935 11.2892 17.8935 9.79342V6.3414C17.8935 4.84563 16.6827 3.63307 15.189 3.63307H5.10874Z" fill="#6897D9"/>
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M7.90613 16.0834C7.90613 15.3931 8.46497 14.8334 9.15435 14.8334H9.16267C9.85204 14.8334 10.4109 15.3931 10.4109 16.0834C10.4109 16.7738 9.85204 17.3334 9.16267 17.3334H9.15435C8.46497 17.3334 7.90613 16.7738 7.90613 16.0834Z" fill="#6897D9"/>
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5634 16.0834C14.5634 15.3931 15.1222 14.8334 15.8116 14.8334H15.8199C16.5093 14.8334 17.0681 15.3931 17.0681 16.0834C17.0681 16.7738 16.5093 17.3334 15.8199 17.3334H15.8116C15.1222 17.3334 14.5634 16.7738 14.5634 16.0834Z" fill="#6897D9"/>
+                                     </svg></a>
+                                 </div>
+                                 <div class="card-icon-1">
+                                   <a href="javascript:void(0)">
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                   <g clip-path="url(#clip0_1_1094)">
+                                   <path d="M10.0001 18.8873C9.71534 18.8873 9.44083 18.7842 9.2269 18.5968C8.41895 17.8903 7.63999 17.2264 6.95274 16.6408L6.94923 16.6377C4.93431 14.9207 3.19435 13.4378 1.98372 11.9771C0.630423 10.3441 8.39233e-05 8.79578 8.39233e-05 7.10434C8.39233e-05 5.46097 0.56359 3.94485 1.58669 2.83508C2.622 1.71219 4.04259 1.09375 5.58723 1.09375C6.74171 1.09375 7.79899 1.45874 8.72962 2.1785C9.19929 2.54181 9.625 2.98645 10.0001 3.5051C10.3753 2.98645 10.8008 2.54181 11.2707 2.1785C12.2013 1.45874 13.2586 1.09375 14.4131 1.09375C15.9575 1.09375 17.3783 1.71219 18.4136 2.83508C19.4367 3.94485 20 5.46097 20 7.10434C20 8.79578 19.3699 10.3441 18.0166 11.9769C16.8059 13.4378 15.0661 14.9205 13.0515 16.6374C12.363 17.224 11.5829 17.8889 10.7731 18.5971C10.5593 18.7842 10.2846 18.8873 10.0001 18.8873ZM5.58723 2.26532C4.3737 2.26532 3.2589 2.74963 2.44789 3.62915C1.62484 4.52194 1.1715 5.75607 1.1715 7.10434C1.1715 8.52692 1.70021 9.79919 2.88567 11.2296C4.03145 12.6122 5.7357 14.0645 7.70896 15.7462L7.71262 15.7492C8.40247 16.3371 9.18448 17.0036 9.99839 17.7153C10.8172 17.0023 11.6004 16.3347 12.2916 15.7458C14.2647 14.0642 15.9688 12.6122 17.1146 11.2296C18.2999 9.79919 18.8286 8.52692 18.8286 7.10434C18.8286 5.75607 18.3753 4.52194 17.5522 3.62915C16.7414 2.74963 15.6264 2.26532 14.4131 2.26532C13.5241 2.26532 12.7079 2.54791 11.9872 3.10516C11.345 3.60199 10.8976 4.23004 10.6353 4.66949C10.5004 4.89548 10.263 5.03036 10.0001 5.03036C9.73716 5.03036 9.49973 4.89548 9.36484 4.66949C9.1027 4.23004 8.65531 3.60199 8.01292 3.10516C7.29225 2.54791 6.47605 2.26532 5.58723 2.26532Z" fill="#6897D9"/>
+                                   </g>
+                                   <defs>
+                                   <clipPath id="clip0_1_1094">
+                                   <rect width="20" height="20" fill="white"/>
+                                   </clipPath>
+                                   </defs>
+                                   </svg> 
+                                    </a>
+                                 </div>
+                               </div>
+                                  <div class="tranding-cycle-img-1">
+                                   <img src="img/section/new-cycle (2).png" alt="" srcset="">
+                                  </div>
+                                   <div class="review-box"> 
+                                     <i class="fa-solid fa-star"></i> 
+                                     <span>8/10</span>
+                                     <i class="fa-solid fa-circle"></i>
+                                     <span>12 review</span> 
+                                   </div>
+                                   <h3>Motors Youth L 2.0 Series Electric Cycle 27.5" Wheels With Front Suspension</h3>
+                                   <div class="price-box">
+                                     <span>$190</span>
+                                     <span><strike> $200 </strike></span>
+                                   </div>
+                          </div>
+                        </div>
+                     
+                        <div class="col-md-6">
+                          <div class="tranding-card-2">
+                               <div class="card-icon">
+                                 <div class="card-icon-1">
+                                   <a href="javascript:void(0)">
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                     <g clip-path="url(#clip0_1_1098)">
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M17.9609 10.3438C16.3493 13.242 13.293 15.0424 9.9864 15.0424C6.67761 15.0424 3.62139 13.242 2.00978 10.3438C1.88566 10.1188 1.88566 9.88092 2.00978 9.65607C3.62139 6.75795 6.67761 4.95779 9.9864 4.95779C13.293 4.95779 16.3493 6.75795 17.9609 9.65607C18.0872 9.88092 18.0872 10.1188 17.9609 10.3438ZM18.9903 9.08146C17.1711 5.80932 13.7211 3.77686 9.9864 3.77686C6.24955 3.77686 2.79952 5.80932 0.980316 9.08146C0.654999 9.66529 0.654999 10.3346 0.980316 10.918C2.79952 14.1902 6.24955 16.2231 9.9864 16.2231C13.7211 16.2231 17.1711 14.1902 18.9903 10.918C19.3157 10.3347 19.3157 9.66529 18.9903 9.08146ZM9.9864 12.4224C11.3198 12.4224 12.4049 11.3358 12.4049 9.99986C12.4049 8.66396 11.3198 7.57732 9.9864 7.57732C8.65089 7.57732 7.5658 8.66396 7.5658 9.99986C7.5658 11.3358 8.65093 12.4224 9.9864 12.4224ZM9.9864 6.39639C8.00025 6.39639 6.38654 8.01307 6.38654 9.9999C6.38654 11.9872 8.00029 13.6032 9.9864 13.6032C11.9704 13.6032 13.5841 11.9871 13.5841 9.9999C13.5841 8.01307 11.9704 6.39639 9.9864 6.39639Z" fill="#6897D9"/>
+                                     </g>
+                                     <defs>
+                                     <clipPath id="clip0_1_1098">
+                                     <rect width="19.9715" height="20" fill="white"/>
+                                     </clipPath>
+                                     </defs>
+                                     </svg>
+                                     </a>
+                                 </div>
+                                 <div class="card-icon-1">
+                                   <a href="javascript:void(0)">  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18" fill="none">
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0.834839 0.874939C0.834839 0.529761 1.11426 0.249939 1.45895 0.249939H3.04109C3.66432 0.249939 4.21847 0.647101 4.4195 1.23786L4.80922 2.38307H15.189C17.372 2.38307 19.1417 4.15527 19.1417 6.3414V9.79342C19.1417 11.9795 17.372 13.7517 15.189 13.7517H8.96132C7.04784 13.7517 5.40913 12.3792 5.07088 10.4931L3.7566 3.165L3.23801 1.64107C3.20929 1.55668 3.13013 1.49994 3.04109 1.49994H1.45895C1.11426 1.49994 0.834839 1.22012 0.834839 0.874939ZM5.10874 3.63307L6.29944 10.2722C6.53087 11.5626 7.65209 12.5017 8.96132 12.5017H15.189C16.6827 12.5017 17.8935 11.2892 17.8935 9.79342V6.3414C17.8935 4.84563 16.6827 3.63307 15.189 3.63307H5.10874Z" fill="#6897D9"/>
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M7.90613 16.0834C7.90613 15.3931 8.46497 14.8334 9.15435 14.8334H9.16267C9.85204 14.8334 10.4109 15.3931 10.4109 16.0834C10.4109 16.7738 9.85204 17.3334 9.16267 17.3334H9.15435C8.46497 17.3334 7.90613 16.7738 7.90613 16.0834Z" fill="#6897D9"/>
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5634 16.0834C14.5634 15.3931 15.1222 14.8334 15.8116 14.8334H15.8199C16.5093 14.8334 17.0681 15.3931 17.0681 16.0834C17.0681 16.7738 16.5093 17.3334 15.8199 17.3334H15.8116C15.1222 17.3334 14.5634 16.7738 14.5634 16.0834Z" fill="#6897D9"/>
+                                     </svg></a>
+                                 </div>
+                                 <div class="card-icon-1">
+                                   <a href="javascript:void(0)">
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                   <g clip-path="url(#clip0_1_1094)">
+                                   <path d="M10.0001 18.8873C9.71534 18.8873 9.44083 18.7842 9.2269 18.5968C8.41895 17.8903 7.63999 17.2264 6.95274 16.6408L6.94923 16.6377C4.93431 14.9207 3.19435 13.4378 1.98372 11.9771C0.630423 10.3441 8.39233e-05 8.79578 8.39233e-05 7.10434C8.39233e-05 5.46097 0.56359 3.94485 1.58669 2.83508C2.622 1.71219 4.04259 1.09375 5.58723 1.09375C6.74171 1.09375 7.79899 1.45874 8.72962 2.1785C9.19929 2.54181 9.625 2.98645 10.0001 3.5051C10.3753 2.98645 10.8008 2.54181 11.2707 2.1785C12.2013 1.45874 13.2586 1.09375 14.4131 1.09375C15.9575 1.09375 17.3783 1.71219 18.4136 2.83508C19.4367 3.94485 20 5.46097 20 7.10434C20 8.79578 19.3699 10.3441 18.0166 11.9769C16.8059 13.4378 15.0661 14.9205 13.0515 16.6374C12.363 17.224 11.5829 17.8889 10.7731 18.5971C10.5593 18.7842 10.2846 18.8873 10.0001 18.8873ZM5.58723 2.26532C4.3737 2.26532 3.2589 2.74963 2.44789 3.62915C1.62484 4.52194 1.1715 5.75607 1.1715 7.10434C1.1715 8.52692 1.70021 9.79919 2.88567 11.2296C4.03145 12.6122 5.7357 14.0645 7.70896 15.7462L7.71262 15.7492C8.40247 16.3371 9.18448 17.0036 9.99839 17.7153C10.8172 17.0023 11.6004 16.3347 12.2916 15.7458C14.2647 14.0642 15.9688 12.6122 17.1146 11.2296C18.2999 9.79919 18.8286 8.52692 18.8286 7.10434C18.8286 5.75607 18.3753 4.52194 17.5522 3.62915C16.7414 2.74963 15.6264 2.26532 14.4131 2.26532C13.5241 2.26532 12.7079 2.54791 11.9872 3.10516C11.345 3.60199 10.8976 4.23004 10.6353 4.66949C10.5004 4.89548 10.263 5.03036 10.0001 5.03036C9.73716 5.03036 9.49973 4.89548 9.36484 4.66949C9.1027 4.23004 8.65531 3.60199 8.01292 3.10516C7.29225 2.54791 6.47605 2.26532 5.58723 2.26532Z" fill="#6897D9"/>
+                                   </g>
+                                   <defs>
+                                   <clipPath id="clip0_1_1094">
+                                   <rect width="20" height="20" fill="white"/>
+                                   </clipPath>
+                                   </defs>
+                                   </svg> 
+                                    </a>
+                                 </div>
+                               </div>
+                                  <div class="tranding-cycle-img-1">
+                                   <img src="img/section/new-cycle (3).png" alt="" srcset="">
+                                  </div>
+                                   <div class="review-box"> 
+                                     <i class="fa-solid fa-star"></i> 
+                                     <span>8/10</span>
+                                     <i class="fa-solid fa-circle"></i>
+                                     <span>12 review</span> 
+                                   </div>
+                                   <h3>Stark 27.5T MultiSpeed MTB Cycle with Front Suspension & Dual Disc Brake</h3>
+                                   <div class="price-box">
+                                     <span>$190</span>
+                                     <span><strike> $200 </strike></span>
+                                   </div>
+                          </div>
+                        </div>
+                     
+                        <div class="col-md-6">
+                          <div class="tranding-card-2">
+                               <div class="card-icon">
+                                 <div class="card-icon-1">
+                                   <a href="javascript:void(0)">
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                     <g clip-path="url(#clip0_1_1098)">
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M17.9609 10.3438C16.3493 13.242 13.293 15.0424 9.9864 15.0424C6.67761 15.0424 3.62139 13.242 2.00978 10.3438C1.88566 10.1188 1.88566 9.88092 2.00978 9.65607C3.62139 6.75795 6.67761 4.95779 9.9864 4.95779C13.293 4.95779 16.3493 6.75795 17.9609 9.65607C18.0872 9.88092 18.0872 10.1188 17.9609 10.3438ZM18.9903 9.08146C17.1711 5.80932 13.7211 3.77686 9.9864 3.77686C6.24955 3.77686 2.79952 5.80932 0.980316 9.08146C0.654999 9.66529 0.654999 10.3346 0.980316 10.918C2.79952 14.1902 6.24955 16.2231 9.9864 16.2231C13.7211 16.2231 17.1711 14.1902 18.9903 10.918C19.3157 10.3347 19.3157 9.66529 18.9903 9.08146ZM9.9864 12.4224C11.3198 12.4224 12.4049 11.3358 12.4049 9.99986C12.4049 8.66396 11.3198 7.57732 9.9864 7.57732C8.65089 7.57732 7.5658 8.66396 7.5658 9.99986C7.5658 11.3358 8.65093 12.4224 9.9864 12.4224ZM9.9864 6.39639C8.00025 6.39639 6.38654 8.01307 6.38654 9.9999C6.38654 11.9872 8.00029 13.6032 9.9864 13.6032C11.9704 13.6032 13.5841 11.9871 13.5841 9.9999C13.5841 8.01307 11.9704 6.39639 9.9864 6.39639Z" fill="#6897D9"/>
+                                     </g>
+                                     <defs>
+                                     <clipPath id="clip0_1_1098">
+                                     <rect width="19.9715" height="20" fill="white"/>
+                                     </clipPath>
+                                     </defs>
+                                     </svg>
+                                     </a>
+                                 </div>
+                                 <div class="card-icon-1">
+                                   <a href="javascript:void(0)">  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18" fill="none">
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0.834839 0.874939C0.834839 0.529761 1.11426 0.249939 1.45895 0.249939H3.04109C3.66432 0.249939 4.21847 0.647101 4.4195 1.23786L4.80922 2.38307H15.189C17.372 2.38307 19.1417 4.15527 19.1417 6.3414V9.79342C19.1417 11.9795 17.372 13.7517 15.189 13.7517H8.96132C7.04784 13.7517 5.40913 12.3792 5.07088 10.4931L3.7566 3.165L3.23801 1.64107C3.20929 1.55668 3.13013 1.49994 3.04109 1.49994H1.45895C1.11426 1.49994 0.834839 1.22012 0.834839 0.874939ZM5.10874 3.63307L6.29944 10.2722C6.53087 11.5626 7.65209 12.5017 8.96132 12.5017H15.189C16.6827 12.5017 17.8935 11.2892 17.8935 9.79342V6.3414C17.8935 4.84563 16.6827 3.63307 15.189 3.63307H5.10874Z" fill="#6897D9"/>
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M7.90613 16.0834C7.90613 15.3931 8.46497 14.8334 9.15435 14.8334H9.16267C9.85204 14.8334 10.4109 15.3931 10.4109 16.0834C10.4109 16.7738 9.85204 17.3334 9.16267 17.3334H9.15435C8.46497 17.3334 7.90613 16.7738 7.90613 16.0834Z" fill="#6897D9"/>
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5634 16.0834C14.5634 15.3931 15.1222 14.8334 15.8116 14.8334H15.8199C16.5093 14.8334 17.0681 15.3931 17.0681 16.0834C17.0681 16.7738 16.5093 17.3334 15.8199 17.3334H15.8116C15.1222 17.3334 14.5634 16.7738 14.5634 16.0834Z" fill="#6897D9"/>
+                                     </svg></a>
+                                 </div>
+                                 <div class="card-icon-1">
+                                   <a href="javascript:void(0)">
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                   <g clip-path="url(#clip0_1_1094)">
+                                   <path d="M10.0001 18.8873C9.71534 18.8873 9.44083 18.7842 9.2269 18.5968C8.41895 17.8903 7.63999 17.2264 6.95274 16.6408L6.94923 16.6377C4.93431 14.9207 3.19435 13.4378 1.98372 11.9771C0.630423 10.3441 8.39233e-05 8.79578 8.39233e-05 7.10434C8.39233e-05 5.46097 0.56359 3.94485 1.58669 2.83508C2.622 1.71219 4.04259 1.09375 5.58723 1.09375C6.74171 1.09375 7.79899 1.45874 8.72962 2.1785C9.19929 2.54181 9.625 2.98645 10.0001 3.5051C10.3753 2.98645 10.8008 2.54181 11.2707 2.1785C12.2013 1.45874 13.2586 1.09375 14.4131 1.09375C15.9575 1.09375 17.3783 1.71219 18.4136 2.83508C19.4367 3.94485 20 5.46097 20 7.10434C20 8.79578 19.3699 10.3441 18.0166 11.9769C16.8059 13.4378 15.0661 14.9205 13.0515 16.6374C12.363 17.224 11.5829 17.8889 10.7731 18.5971C10.5593 18.7842 10.2846 18.8873 10.0001 18.8873ZM5.58723 2.26532C4.3737 2.26532 3.2589 2.74963 2.44789 3.62915C1.62484 4.52194 1.1715 5.75607 1.1715 7.10434C1.1715 8.52692 1.70021 9.79919 2.88567 11.2296C4.03145 12.6122 5.7357 14.0645 7.70896 15.7462L7.71262 15.7492C8.40247 16.3371 9.18448 17.0036 9.99839 17.7153C10.8172 17.0023 11.6004 16.3347 12.2916 15.7458C14.2647 14.0642 15.9688 12.6122 17.1146 11.2296C18.2999 9.79919 18.8286 8.52692 18.8286 7.10434C18.8286 5.75607 18.3753 4.52194 17.5522 3.62915C16.7414 2.74963 15.6264 2.26532 14.4131 2.26532C13.5241 2.26532 12.7079 2.54791 11.9872 3.10516C11.345 3.60199 10.8976 4.23004 10.6353 4.66949C10.5004 4.89548 10.263 5.03036 10.0001 5.03036C9.73716 5.03036 9.49973 4.89548 9.36484 4.66949C9.1027 4.23004 8.65531 3.60199 8.01292 3.10516C7.29225 2.54791 6.47605 2.26532 5.58723 2.26532Z" fill="#6897D9"/>
+                                   </g>
+                                   <defs>
+                                   <clipPath id="clip0_1_1094">
+                                   <rect width="20" height="20" fill="white"/>
+                                   </clipPath>
+                                   </defs>
+                                   </svg> 
+                                    </a>
+                                 </div>
+                               </div>
+                                  <div class="tranding-cycle-img-1">
+                                   <img src="img/section/new-cycle (5).png" alt="" srcset="">
+                                  </div>
+                                   <div class="review-box"> 
+                                     <i class="fa-solid fa-star"></i> 
+                                     <span>8/10</span>
+                                     <i class="fa-solid fa-circle"></i>
+                                     <span>12 review</span> 
+                                   </div>
+                                   <h3>Stark 27.5T MultiSpeed MTB Cycle with Front Suspension & Dual Disc Brake</h3>
+                                   <div class="price-box">
+                                     <span>$190</span>
+                                     <span><strike> $200 </strike></span>
+                                   </div>
+                          </div>
+                        </div>
+                     
+                        <div class="col-md-6">
+                          <div class="tranding-card-2">
+                               <div class="card-icon">
+                                 <div class="card-icon-1">
+                                   <a href="javascript:void(0)">
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                     <g clip-path="url(#clip0_1_1098)">
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M17.9609 10.3438C16.3493 13.242 13.293 15.0424 9.9864 15.0424C6.67761 15.0424 3.62139 13.242 2.00978 10.3438C1.88566 10.1188 1.88566 9.88092 2.00978 9.65607C3.62139 6.75795 6.67761 4.95779 9.9864 4.95779C13.293 4.95779 16.3493 6.75795 17.9609 9.65607C18.0872 9.88092 18.0872 10.1188 17.9609 10.3438ZM18.9903 9.08146C17.1711 5.80932 13.7211 3.77686 9.9864 3.77686C6.24955 3.77686 2.79952 5.80932 0.980316 9.08146C0.654999 9.66529 0.654999 10.3346 0.980316 10.918C2.79952 14.1902 6.24955 16.2231 9.9864 16.2231C13.7211 16.2231 17.1711 14.1902 18.9903 10.918C19.3157 10.3347 19.3157 9.66529 18.9903 9.08146ZM9.9864 12.4224C11.3198 12.4224 12.4049 11.3358 12.4049 9.99986C12.4049 8.66396 11.3198 7.57732 9.9864 7.57732C8.65089 7.57732 7.5658 8.66396 7.5658 9.99986C7.5658 11.3358 8.65093 12.4224 9.9864 12.4224ZM9.9864 6.39639C8.00025 6.39639 6.38654 8.01307 6.38654 9.9999C6.38654 11.9872 8.00029 13.6032 9.9864 13.6032C11.9704 13.6032 13.5841 11.9871 13.5841 9.9999C13.5841 8.01307 11.9704 6.39639 9.9864 6.39639Z" fill="#6897D9"/>
+                                     </g>
+                                     <defs>
+                                     <clipPath id="clip0_1_1098">
+                                     <rect width="19.9715" height="20" fill="white"/>
+                                     </clipPath>
+                                     </defs>
+                                     </svg>
+                                     </a>
+                                 </div>
+                                 <div class="card-icon-1">
+                                   <a href="javascript:void(0)">  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18" fill="none">
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0.834839 0.874939C0.834839 0.529761 1.11426 0.249939 1.45895 0.249939H3.04109C3.66432 0.249939 4.21847 0.647101 4.4195 1.23786L4.80922 2.38307H15.189C17.372 2.38307 19.1417 4.15527 19.1417 6.3414V9.79342C19.1417 11.9795 17.372 13.7517 15.189 13.7517H8.96132C7.04784 13.7517 5.40913 12.3792 5.07088 10.4931L3.7566 3.165L3.23801 1.64107C3.20929 1.55668 3.13013 1.49994 3.04109 1.49994H1.45895C1.11426 1.49994 0.834839 1.22012 0.834839 0.874939ZM5.10874 3.63307L6.29944 10.2722C6.53087 11.5626 7.65209 12.5017 8.96132 12.5017H15.189C16.6827 12.5017 17.8935 11.2892 17.8935 9.79342V6.3414C17.8935 4.84563 16.6827 3.63307 15.189 3.63307H5.10874Z" fill="#6897D9"/>
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M7.90613 16.0834C7.90613 15.3931 8.46497 14.8334 9.15435 14.8334H9.16267C9.85204 14.8334 10.4109 15.3931 10.4109 16.0834C10.4109 16.7738 9.85204 17.3334 9.16267 17.3334H9.15435C8.46497 17.3334 7.90613 16.7738 7.90613 16.0834Z" fill="#6897D9"/>
+                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5634 16.0834C14.5634 15.3931 15.1222 14.8334 15.8116 14.8334H15.8199C16.5093 14.8334 17.0681 15.3931 17.0681 16.0834C17.0681 16.7738 16.5093 17.3334 15.8199 17.3334H15.8116C15.1222 17.3334 14.5634 16.7738 14.5634 16.0834Z" fill="#6897D9"/>
+                                     </svg></a>
+                                 </div>
+                                 <div class="card-icon-1">
+                                   <a href="javascript:void(0)">
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                   <g clip-path="url(#clip0_1_1094)">
+                                   <path d="M10.0001 18.8873C9.71534 18.8873 9.44083 18.7842 9.2269 18.5968C8.41895 17.8903 7.63999 17.2264 6.95274 16.6408L6.94923 16.6377C4.93431 14.9207 3.19435 13.4378 1.98372 11.9771C0.630423 10.3441 8.39233e-05 8.79578 8.39233e-05 7.10434C8.39233e-05 5.46097 0.56359 3.94485 1.58669 2.83508C2.622 1.71219 4.04259 1.09375 5.58723 1.09375C6.74171 1.09375 7.79899 1.45874 8.72962 2.1785C9.19929 2.54181 9.625 2.98645 10.0001 3.5051C10.3753 2.98645 10.8008 2.54181 11.2707 2.1785C12.2013 1.45874 13.2586 1.09375 14.4131 1.09375C15.9575 1.09375 17.3783 1.71219 18.4136 2.83508C19.4367 3.94485 20 5.46097 20 7.10434C20 8.79578 19.3699 10.3441 18.0166 11.9769C16.8059 13.4378 15.0661 14.9205 13.0515 16.6374C12.363 17.224 11.5829 17.8889 10.7731 18.5971C10.5593 18.7842 10.2846 18.8873 10.0001 18.8873ZM5.58723 2.26532C4.3737 2.26532 3.2589 2.74963 2.44789 3.62915C1.62484 4.52194 1.1715 5.75607 1.1715 7.10434C1.1715 8.52692 1.70021 9.79919 2.88567 11.2296C4.03145 12.6122 5.7357 14.0645 7.70896 15.7462L7.71262 15.7492C8.40247 16.3371 9.18448 17.0036 9.99839 17.7153C10.8172 17.0023 11.6004 16.3347 12.2916 15.7458C14.2647 14.0642 15.9688 12.6122 17.1146 11.2296C18.2999 9.79919 18.8286 8.52692 18.8286 7.10434C18.8286 5.75607 18.3753 4.52194 17.5522 3.62915C16.7414 2.74963 15.6264 2.26532 14.4131 2.26532C13.5241 2.26532 12.7079 2.54791 11.9872 3.10516C11.345 3.60199 10.8976 4.23004 10.6353 4.66949C10.5004 4.89548 10.263 5.03036 10.0001 5.03036C9.73716 5.03036 9.49973 4.89548 9.36484 4.66949C9.1027 4.23004 8.65531 3.60199 8.01292 3.10516C7.29225 2.54791 6.47605 2.26532 5.58723 2.26532Z" fill="#6897D9"/>
+                                   </g>
+                                   <defs>
+                                   <clipPath id="clip0_1_1094">
+                                   <rect width="20" height="20" fill="white"/>
+                                   </clipPath>
+                                   </defs>
+                                   </svg> 
+                                    </a>
+                                 </div>
+                               </div>
+                                  <div class="tranding-cycle-img-1">
+                                   <img src="img/section/new-cycle (4).png" alt="" srcset="">
+                                  </div>
+                                   <div class="review-box"> 
+                                     <i class="fa-solid fa-star"></i> 
+                                     <span>8/10</span>
+                                     <i class="fa-solid fa-circle"></i>
+                                     <span>12 review</span> 
+                                   </div>
+                                   <h3>Stark 27.5T MultiSpeed MTB Cycle with Front Suspension & Dual Disc Brake</h3>
+                                   <div class="price-box">
+                                     <span>$190</span>
+                                     <span><strike> $200 </strike></span>
+                                   </div>
+                          </div>
+                        </div>
+                     
+                   </div>
+               </div>
+               <div class="col-xl-6  col-md-4">
+                <div class="tranding-card">
+                     <div class="card-icon">
+                       <div class="card-icon-1">
+                         <a href="javascript:void(0)">
+                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                           <g clip-path="url(#clip0_1_1098)">
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M17.9609 10.3438C16.3493 13.242 13.293 15.0424 9.9864 15.0424C6.67761 15.0424 3.62139 13.242 2.00978 10.3438C1.88566 10.1188 1.88566 9.88092 2.00978 9.65607C3.62139 6.75795 6.67761 4.95779 9.9864 4.95779C13.293 4.95779 16.3493 6.75795 17.9609 9.65607C18.0872 9.88092 18.0872 10.1188 17.9609 10.3438ZM18.9903 9.08146C17.1711 5.80932 13.7211 3.77686 9.9864 3.77686C6.24955 3.77686 2.79952 5.80932 0.980316 9.08146C0.654999 9.66529 0.654999 10.3346 0.980316 10.918C2.79952 14.1902 6.24955 16.2231 9.9864 16.2231C13.7211 16.2231 17.1711 14.1902 18.9903 10.918C19.3157 10.3347 19.3157 9.66529 18.9903 9.08146ZM9.9864 12.4224C11.3198 12.4224 12.4049 11.3358 12.4049 9.99986C12.4049 8.66396 11.3198 7.57732 9.9864 7.57732C8.65089 7.57732 7.5658 8.66396 7.5658 9.99986C7.5658 11.3358 8.65093 12.4224 9.9864 12.4224ZM9.9864 6.39639C8.00025 6.39639 6.38654 8.01307 6.38654 9.9999C6.38654 11.9872 8.00029 13.6032 9.9864 13.6032C11.9704 13.6032 13.5841 11.9871 13.5841 9.9999C13.5841 8.01307 11.9704 6.39639 9.9864 6.39639Z" fill="#6897D9"/>
+                           </g>
+                           <defs>
+                           <clipPath id="clip0_1_1098">
+                           <rect width="19.9715" height="20" fill="white"/>
+                           </clipPath>
+                           </defs>
+                           </svg>
+                           </a>
+                       </div>
+                       <div class="card-icon-1">
+                         <a href="javascript:void(0)">  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18" fill="none">
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M0.834839 0.874939C0.834839 0.529761 1.11426 0.249939 1.45895 0.249939H3.04109C3.66432 0.249939 4.21847 0.647101 4.4195 1.23786L4.80922 2.38307H15.189C17.372 2.38307 19.1417 4.15527 19.1417 6.3414V9.79342C19.1417 11.9795 17.372 13.7517 15.189 13.7517H8.96132C7.04784 13.7517 5.40913 12.3792 5.07088 10.4931L3.7566 3.165L3.23801 1.64107C3.20929 1.55668 3.13013 1.49994 3.04109 1.49994H1.45895C1.11426 1.49994 0.834839 1.22012 0.834839 0.874939ZM5.10874 3.63307L6.29944 10.2722C6.53087 11.5626 7.65209 12.5017 8.96132 12.5017H15.189C16.6827 12.5017 17.8935 11.2892 17.8935 9.79342V6.3414C17.8935 4.84563 16.6827 3.63307 15.189 3.63307H5.10874Z" fill="#6897D9"/>
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M7.90613 16.0834C7.90613 15.3931 8.46497 14.8334 9.15435 14.8334H9.16267C9.85204 14.8334 10.4109 15.3931 10.4109 16.0834C10.4109 16.7738 9.85204 17.3334 9.16267 17.3334H9.15435C8.46497 17.3334 7.90613 16.7738 7.90613 16.0834Z" fill="#6897D9"/>
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5634 16.0834C14.5634 15.3931 15.1222 14.8334 15.8116 14.8334H15.8199C16.5093 14.8334 17.0681 15.3931 17.0681 16.0834C17.0681 16.7738 16.5093 17.3334 15.8199 17.3334H15.8116C15.1222 17.3334 14.5634 16.7738 14.5634 16.0834Z" fill="#6897D9"/>
+                           </svg></a>
+                       </div>
+                       <div class="card-icon-1">
+                         <a href="javascript:void(0)">
+                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                         <g clip-path="url(#clip0_1_1094)">
+                         <path d="M10.0001 18.8873C9.71534 18.8873 9.44083 18.7842 9.2269 18.5968C8.41895 17.8903 7.63999 17.2264 6.95274 16.6408L6.94923 16.6377C4.93431 14.9207 3.19435 13.4378 1.98372 11.9771C0.630423 10.3441 8.39233e-05 8.79578 8.39233e-05 7.10434C8.39233e-05 5.46097 0.56359 3.94485 1.58669 2.83508C2.622 1.71219 4.04259 1.09375 5.58723 1.09375C6.74171 1.09375 7.79899 1.45874 8.72962 2.1785C9.19929 2.54181 9.625 2.98645 10.0001 3.5051C10.3753 2.98645 10.8008 2.54181 11.2707 2.1785C12.2013 1.45874 13.2586 1.09375 14.4131 1.09375C15.9575 1.09375 17.3783 1.71219 18.4136 2.83508C19.4367 3.94485 20 5.46097 20 7.10434C20 8.79578 19.3699 10.3441 18.0166 11.9769C16.8059 13.4378 15.0661 14.9205 13.0515 16.6374C12.363 17.224 11.5829 17.8889 10.7731 18.5971C10.5593 18.7842 10.2846 18.8873 10.0001 18.8873ZM5.58723 2.26532C4.3737 2.26532 3.2589 2.74963 2.44789 3.62915C1.62484 4.52194 1.1715 5.75607 1.1715 7.10434C1.1715 8.52692 1.70021 9.79919 2.88567 11.2296C4.03145 12.6122 5.7357 14.0645 7.70896 15.7462L7.71262 15.7492C8.40247 16.3371 9.18448 17.0036 9.99839 17.7153C10.8172 17.0023 11.6004 16.3347 12.2916 15.7458C14.2647 14.0642 15.9688 12.6122 17.1146 11.2296C18.2999 9.79919 18.8286 8.52692 18.8286 7.10434C18.8286 5.75607 18.3753 4.52194 17.5522 3.62915C16.7414 2.74963 15.6264 2.26532 14.4131 2.26532C13.5241 2.26532 12.7079 2.54791 11.9872 3.10516C11.345 3.60199 10.8976 4.23004 10.6353 4.66949C10.5004 4.89548 10.263 5.03036 10.0001 5.03036C9.73716 5.03036 9.49973 4.89548 9.36484 4.66949C9.1027 4.23004 8.65531 3.60199 8.01292 3.10516C7.29225 2.54791 6.47605 2.26532 5.58723 2.26532Z" fill="#6897D9"/>
+                         </g>
+                         <defs>
+                         <clipPath id="clip0_1_1094">
+                         <rect width="20" height="20" fill="white"/>
+                         </clipPath>
+                         </defs>
+                         </svg> 
+                          </a>
+                       </div>
+                     </div>
+                        <div class="tranding-cycle-img">
+                         <img src="img/section/new-cycle-1.png" alt="" srcset="">
+                        </div>
+                         <div class="review-box"> 
+                           <i class="fa-solid fa-star"></i> 
+                           <span>8/10</span>
+                           <i class="fa-solid fa-circle"></i>
+                           <span>12 review</span> 
+                         </div>
+                         <h3>E-Power L7 27.5T Electric Cycle with Front Suspension & Dual DISC Brake - Grey. Ideal</h3>
+                         <div class="price-box">
+                           <span>$190</span>
+                           <span><strike> $200 </strike></span>
+                         </div>
+                </div>
+              </div>
+          </div>
+        </div>       
+     </section>
+      
+     <section class="letest-cycle ">
+       <div class="pro-cycles ">
+                <div class="cycle-swip">
+                        <div class="button-top swiper-button-next">
+                        
+                            <i class="fa-solid fa-angle-up"></i> 
+                            <i class="fa-solid fa-angle-left"></i> 
+                          
+                        </div>
+                      <div class="swiper mySwiper">
+                       <div class="swiper-wrapper">
+          <div class="swiper-slide">   
+            <div class="swip-img">
+            <img src="img/section/scroll/scroll (1).png" alt="" srcset="">
+              <p>Rough Rider 29er</p>
+           </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swip-img">
+              <img src="img/section/scroll/scroll (1).png" alt="" srcset="">
+                <p>Rough Rider 29er</p>
+             </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swip-img">
+              <img src="img/section/scroll/scroll (3).png" alt="" srcset="">
+                <p>Rough Rider 29er</p>
+             </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swip-img">
+              <img src="img/section/scroll/scroll (4).png" alt="" srcset="">
+                <p>Rough Rider 29er</p>
+             </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swip-img">
+              <img src="img/section/scroll/scroll (1).png" alt="" srcset="">
+                <p>Rough Rider 29er</p>
+             </div>
+            
+          </div>
+          <div class="swiper-slide">
+            <div class="swip-img">
+              <img src="img/section/scroll/scroll (2).png" alt="" srcset="">
+                <p>Rough Rider 29er</p>
+             </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swip-img">
+              <img src="img/section/scroll/scroll (3).png" alt="" srcset="">
+                <p>Rough Rider 29er</p>
+             </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swip-img">
+              <img src="img/section/scroll/scroll (4).png" alt="" srcset="">
+                <p>Rough Rider 29er</p>
+             </div>
+          </div>
+                 </div>   
+  
+                           </div>                     
+                        <div class="button-bottom swiper-button-prev">
+                       
+                            <i class="fa-solid fa-angle-down"></i> 
+                            <i class="fa-solid fa-angle-right"></i>
+                       
+                        </div>
+                </div>  
+
+                <div class="cycle-swipe-center">
+                      <div class="center-swip-img"> 
+                        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <div class="runing-cycle"><img src="img/section/scroll/swip-1.png" alt="" srcset=""> </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="runing-cycle"><img src="img/section/scroll/swip-1.png" alt="" srcset=""> </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="runing-cycle"><img src="img/section/scroll/swip-1.png" alt="" srcset=""> </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="runing-cycle"><img src="img/section/scroll/swip-1.png" alt="" srcset=""> </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="runing-cycle"><img src="img/section/scroll/swip-1.png" alt="" srcset=""> </div>
+                            </div>
+                       
+                          </div>
+                         
+                        </div>
+                          
+                      </div>
+                       
+                     <div class="center-button-bar text-center"> 
+                      <i class="fa-solid fa-angle-left detu-next"></i> 
+                      <i class="fa-solid fa-angle-right detu-prev"></i>
+                     </div>
+                         
+                    <div class="cycle-sm-swip">
+                 <div thumbsSlider="" class="swiper mySwiper1">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="mini-cycle-box">
+                        <img src="img/section/scroll/mini-cycle.png" alt="" srcset="">
+                     </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="mini-cycle-box">
+                        <img src="img/section/scroll/mini-cycle.png" alt="" srcset="">
+                     </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="mini-cycle-box">
+                        <img src="img/section/scroll/mini-cycle.png" alt="" srcset="">
+                     </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="mini-cycle-box">
+                        <img src="img/section/scroll/mini-cycle.png" alt="" srcset="">
+                     </div>
+                    </div>
+                    
+               
+                  </div>
+                </div>    
+                    
+
+                </div>
+
+             
+
+                </div> 
+             
+                <div class="swip-right">
+                  <h2>Thunder Strike Pro XT Mountain Bike</h2>
+                  <p>The mountain bike model and the manufacturer's brand  material used for the frame such aluminum steel carbon fiber & light weight.</p>
+                   <div class="cycle-details d-flex gap-5">
+                    <div>
+                      <div class="ditels-part">
+                        <div class="part-img">
+                         <img src="img/section/part-cycle/wheel.png" alt="" srcset="">
+                        </div>
+                          <span>DT Swiss 29-Inch </span> 
+                 </div>
+                 <div class="ditels-part">
+                        <div class="part-img">
+                         <img src="img/section/part-cycle/brake-disc.png" alt="" srcset="">
+                        </div>
+                          <span>DT Swiss 29-Inch </span> 
+                 </div>
+                    </div>
+                     <div>
+                      <div class="ditels-part">
+                        <div class="part-img">
+                          <img src="img/section/part-cycle/weight.png" alt="" srcset="">
+                        </div>
+                          <span>DT Swiss 29-Inch </span> 
+                  </div>
+                  <div class="ditels-part">
+                        <div class="part-img">
+                          <img src="img/section/part-cycle/membrane .png" alt="" srcset="">
+                        </div>
+                          <span>DT Swiss 29-Inch </span> 
+                  </div>
+                     </div>
+                         
+                   </div>
+                     <div class="seet-color-opstion">
+                           <h3>Color Options:</h3>
+                            <div class="seet-img">
+                               <img src="img/section/part-cycle/seet-1.png" alt="" srcset="">
+                               <img src="img/section/part-cycle/seet-2.png" alt="" srcset="">
+                               <img src="img/section/part-cycle/seet-1.png" alt="" srcset="">
+                            </div>
+                     </div>
+                       <div class="price-cy">
+                        <button type="button" class="btn btn-secondary rounded-1">Add to Card </button>
+                         <span>Price $500</span>
+                       </div>      
+           </div>
+              </div>             
+     </section>
+
+         <section class="delivery-menu">
+                   <div class="container">
+                       <div class="row">
+                          <div class="col-lg-3 col-sm-6">
+                             <div class="delivery-img">
+                              <img src="img/section/delivery/delivery (1).png" alt="" srcset="">
+                               <h3>shipping</h3>
+                               <p> Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                             </div>
+                          </div>
+                          <div class="col-lg-3 col-sm-6">
+                             <div class="delivery-img">
+                              <img src="img/section/delivery/delivery (2).png" alt="" srcset="">
+                               <h3>Secure Delivery</h3>
+                               <p> Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                             </div>
+                          </div>
+                          <div class="col-lg-3 col-sm-6">
+                             <div class="delivery-img">
+                              <img src="img/section/delivery/delivery (3).png" alt="" srcset="">
+                               <h3>60 Working Day’s Return</h3>
+                               <p> Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                             </div>
+                          </div>
+                          <div class="col-lg-3 col-sm-6">
+                             <div class="delivery-img">
+                              <img src="img/section/delivery/delivery (4).png" alt="" srcset="">
+                               <h3>Security Payment</h3>
+                               <p> Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                             </div>
+                          </div>
+                       </div>
+                   </div>
+         </section>
+
+     <section>
+       <div class="mountain-img">
+        <img src="img/footer-img/ cycle-ston (2).png" alt="" srcset="">     
+        
+        <div class="mountain-1">
+         <img src="img/footer-img/ cycle-ston (3).png" alt="" srcset="">
+        </div>   
+      
+          <div class="mountain-2">
+         <img src="img/footer-img/cycle-ston.png" alt="" srcset="">
+        </div>
+
+      </div> 
+        </section>
+
+ <footer>
+        <div class="container">
+             <div class="row">
+              <div class="col-lg-4 col-md-6">
+                   <div class="socail-media-menu">
+                     <img src="img/logo-img/logo-white 1.png" alt="" srcset="">
+                     <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</P>
+                     <h4>Social Media</h4>
+                       <div class="media">
+                            <div class="row">
+                              <div class="col-4">
+                                <a href="javascript:void(0)">facebook</a>
+                              </div>
+                              <div class="col-4">
+                                <a href="javascript:void(0)">facebook</a>
+                              </div>
+                              <div class="col-4">
+                                <a href="javascript:void(0)">intragrm</a>
+                              </div>
+                              <div class="col-4">
+                                <a href="javascript:void(0)">twitter</a>
+                              </div>
+                              <div class="col-4">
+                                <a href="javascript:void(0)">Linkdin</a>
+                              </div>
+                              <div class="col-4">
+                                <a href="javascript:void(0)">Behance</a>
+                              </div>
+                            </div>
+                         
+
+                          
+                        
+                          
+  
+                       </div> 
+                          
+                   </div>
+              </div>
+              <div class="col-lg-2 col-md-3 mt-5 mt-md-0">
+                <h4>FAQ'S</h4>
+                <div class="link" >
+                     <a href="javascript:void(0)">Rewards FAQ’S</a>
+                     <a href="javascript:void(0)">Product Care</a>
+                     <a href="javascript:void(0)">Size Guide</a>
+                     
+                  </div>
+              </div>
+              <div class="col-lg-2 col-md-3 mt-5 mt-md-0">
+                <h4>Category</h4>
+                <div class="link">
+                   <a href="javascript:void(0)">Jewelry</a>
+                   <a href="javascript:void(0)">Collection</a>
+                   <a href="javascript:void(0)">Outlet%</a>
+                   <a href="javascript:void(0)">Jhumka</a>
+                   <a href="javascript:void(0)">Earrings</a>
+                 </div>
+              </div>
+              <div class="col-lg-2 col-md-3 mt-5 mt-lg-0">
+                <h4>Customer</h4>
+                <div class="link">
+                   <a href="javascript:void(0)">Payment & Delivery</a>
+                   <a href="javascript:void(0)">Contract Offer</a>
+                   <a href="javascript:void(0)">The Shops</a>
+                   <a href="javascript:void(0)">Shopping app</a>
+                   <a href="javascript:void(0)">Be an Affiliate</a>
+                   <a href="javascript:void(0)">media Enquires</a>
+   
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-3 mt-5 mt-lg-0" >
+                <h4>About us</h4>
+                   <div class="link">
+                        <a href="javascript:void(0)">About The Brand</a>
+                        <a href="javascript:void(0)">News</a>
+                        <a href="javascript:void(0)">Stock</a>
+                        <a href="javascript:void(0)">Sitemap</a>
+                        <a href="javascript:void(0)">Press Releases</a>
+                   </div>
+              </div>
+             </div> 
+              
+    
+        </div>
+             <div class="col-12 text-center">
+              <div class="input-menu">
+                <h4>Subscribe For Latest Newsletter</h4>
+                 <div class="input-box">
+                  <input type="email" class="form-control" name="email" placeholder="Enter Email Address" required >
+                  <button type="button" class="btn btn-secondary">Subscribe</button>  
+                </div>    
+              </div>
+             </div>
+ </footer>
+         <div class="copy-right">
+           <span>Copyright © 2023 <a href="https://dexignzone.com/index.html"> Dexignzone </a> Theme. All Rights Reserved</span>
+         </div>   
+
+    </div>
+
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        direction: "vertical",
+        loop: true,
+        slidesPerView: 4,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+        340: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+          direction: "horizontal"
+        },
+        575:{
+          slidesPerView: 2,
+          spaceBetween: 40,
+          direction: "horizontal",
+        },
+        995: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+          direction: "horizontal",
+        },
+        1500: {
+          slidesPerView: 4,
+          spaceBetween: 50,
+        },
+      },
+
+
+      });
+
+
+      var swiper = new Swiper(".mySwiper1", {
+        loop: true,
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesProgress: true,
+      breakpoints: {
+        340: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+          direction: "horizontal"
+        },
+        361:{
+          slidesPerView: 2,
+          spaceBetween: 40,
+          direction: "horizontal",
+        },
+        995: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+          direction: "horizontal",
+        },
+        1500: {
+          slidesPerView: 4,
+          spaceBetween: 50,
+        },
+      },
+
+    });
+    var swiper2 = new Swiper(".mySwiper2", {
+      loop: true,
+      effect: "flip",
+      grabCursor: true,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".detu-next",
+        prevEl: ".detu-prev",
+      },
+      thumbs: {
+        swiper: swiper,
+      },
+    });
+
+    </script>
+         
+         <script src="jqueri.min.js"></script>    
+         <script src="isotop-min.js"></script>
+         <script src="index.js"></script>
+         <script src="vendor/meganific-popup/jquery.magnific-popup.min.js"></script>
+         <script src="vendor/bootstrap-touchspin-master/dist/jquery.bootstrap-touchspin.js"></script>
+ <script>
+
+$(document).ready(function() {
+	$('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+		disableOn: 700,
+		type: 'iframe',
+		mainClass: 'mfp-fade',
+		removalDelay: 160,
+		preloader: false,
+
+		fixedContentPos: false
+	});
+
+
+  $(document).ready(function() {
+	$('.view').magnificPopup({
+		type: 'inline',
+		preloader: false,
+		focus: '#name',
+
+		// When elemened is focused, some mobile browsers in some cases zoom in
+		// It looks not nice, so we disable it:
+		callbacks: {
+			beforeOpen: function() {
+				if($(window).width() < 700) {
+					this.st.focus = false;
+				} else {
+					this.st.focus = '#name';
+				}
+			}
+		}
+	});
+});
+   
+
+});
+
+$("input[name='demo3_21']").TouchSpin({
+                initval: 40
+            });
+</script> 
+
+
+        </body>
+  </html>
+  
